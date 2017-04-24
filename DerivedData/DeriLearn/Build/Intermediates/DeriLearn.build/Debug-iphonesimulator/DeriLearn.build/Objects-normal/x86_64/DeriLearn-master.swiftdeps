@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "f57d64eb67b78a39d4c382e08c9ecfb2"
+build_time: [546373647, 177689000]
+inputs:
+  "/Users/luisflores/Desktop/Derilearn/DeriLearn/DeriLearn/ViewController.swift": [546035540, 0]
+  "/Users/luisflores/Desktop/Derilearn/DeriLearn/DeriLearn/AppDelegate.swift": [546035540, 0]
+  "/Users/luisflores/Desktop/Derilearn/DeriLearn/DeriLearn/ViewControllerCatAprendeTrigo.swift": [546035540, 0]
+  "/Users/luisflores/Desktop/Derilearn/DeriLearn/DeriLearn/ViewControllerPregunta.swift": [546373643, 0]
+  "/Users/luisflores/Desktop/Derilearn/DeriLearn/ViewControllerSelPreg.swift": [546373317, 0]
+  "/Users/luisflores/Desktop/Derilearn/DeriLearn/DeriLearn/ViewControllerFormulario.swift": [546035540, 0]
+  "/Users/luisflores/Desktop/Derilearn/DeriLearn/DeriLearn/ViewControllerCatAprende.swift": [546035540, 0]

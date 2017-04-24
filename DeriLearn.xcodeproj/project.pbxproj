@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24C986661E8D98260037952F /* ViewControllerFormulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C986651E8D98260037952F /* ViewControllerFormulario.swift */; };
+		8E1B12261EA956A800C92CFF /* ViewControllerSelPreg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B12251EA956A800C92CFF /* ViewControllerSelPreg.swift */; };
+		8E1B12281EA9571B00C92CFF /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E1B12271EA9571B00C92CFF /* Property List.plist */; };
+		8E1B122A1EA95B1900C92CFF /* ViewControllerPregunta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B12291EA95B1900C92CFF /* ViewControllerPregunta.swift */; };
+		FB09A4711E79DEFD00E63004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09A4701E79DEFD00E63004 /* AppDelegate.swift */; };
+		FB09A4731E79DEFD00E63004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09A4721E79DEFD00E63004 /* ViewController.swift */; };
+		FB09A4761E79DEFD00E63004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB09A4741E79DEFD00E63004 /* Main.storyboard */; };
+		FB09A4791E79DEFD00E63004 /* DeriLearn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB09A4771E79DEFD00E63004 /* DeriLearn.xcdatamodeld */; };
+		FB09A47B1E79DEFD00E63004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB09A47A1E79DEFD00E63004 /* Assets.xcassets */; };
+		FB09A47E1E79DEFD00E63004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB09A47C1E79DEFD00E63004 /* LaunchScreen.storyboard */; };
+		FB09A4911E79EA7600E63004 /* exp.png in Resources */ = {isa = PBXBuildFile; fileRef = FB09A48D1E79EA7600E63004 /* exp.png */; };
+		FB09A4921E79EA7600E63004 /* log.png in Resources */ = {isa = PBXBuildFile; fileRef = FB09A48E1E79EA7600E63004 /* log.png */; };
+		FB09A4931E79EA7600E63004 /* poli.png in Resources */ = {isa = PBXBuildFile; fileRef = FB09A48F1E79EA7600E63004 /* poli.png */; };
+		FB09A4941E79EA7600E63004 /* trig.png in Resources */ = {isa = PBXBuildFile; fileRef = FB09A4901E79EA7600E63004 /* trig.png */; };
+		FB41B7F81E79F4AF00ECE82B /* cos.png in Resources */ = {isa = PBXBuildFile; fileRef = FB41B7F51E79F4AF00ECE82B /* cos.png */; };
+		FB41B7F91E79F4AF00ECE82B /* sen.png in Resources */ = {isa = PBXBuildFile; fileRef = FB41B7F61E79F4AF00ECE82B /* sen.png */; };
+		FB41B7FA1E79F4AF00ECE82B /* tan.png in Resources */ = {isa = PBXBuildFile; fileRef = FB41B7F71E79F4AF00ECE82B /* tan.png */; };
+		FB4AA3EB1EAE992D00489447 /* ViewControllerRetroPractica.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AA3EA1EAE992D00489447 /* ViewControllerRetroPractica.swift */; };
+		FB9C866E1E8B1A6A004B6A1B /* ViewControllerCatAprende.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C866D1E8B1A6A004B6A1B /* ViewControllerCatAprende.swift */; };
+		FB9C86701E8C60C3004B6A1B /* ViewControllerCatAprendeTrigo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C866F1E8C60C3004B6A1B /* ViewControllerCatAprendeTrigo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24C986651E8D98260037952F /* ViewControllerFormulario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFormulario.swift; sourceTree = "<group>"; };
+		8E1B12251EA956A800C92CFF /* ViewControllerSelPreg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerSelPreg.swift; path = ../ViewControllerSelPreg.swift; sourceTree = "<group>"; };
+		8E1B12271EA9571B00C92CFF /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		8E1B12291EA95B1900C92CFF /* ViewControllerPregunta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPregunta.swift; sourceTree = "<group>"; };
+		FB09A46D1E79DEFD00E63004 /* DeriLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeriLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB09A4701E79DEFD00E63004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB09A4721E79DEFD00E63004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB09A4751E79DEFD00E63004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB09A4781E79DEFD00E63004 /* DeriLearn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeriLearn.xcdatamodel; sourceTree = "<group>"; };
+		FB09A47A1E79DEFD00E63004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB09A47D1E79DEFD00E63004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB09A47F1E79DEFD00E63004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB09A48D1E79EA7600E63004 /* exp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exp.png; sourceTree = "<group>"; };
+		FB09A48E1E79EA7600E63004 /* log.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = log.png; sourceTree = "<group>"; };
+		FB09A48F1E79EA7600E63004 /* poli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poli.png; sourceTree = "<group>"; };
+		FB09A4901E79EA7600E63004 /* trig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trig.png; sourceTree = "<group>"; };
+		FB41B7F51E79F4AF00ECE82B /* cos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cos.png; sourceTree = "<group>"; };
+		FB41B7F61E79F4AF00ECE82B /* sen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sen.png; sourceTree = "<group>"; };
+		FB41B7F71E79F4AF00ECE82B /* tan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tan.png; sourceTree = "<group>"; };
+		FB4AA3EA1EAE992D00489447 /* ViewControllerRetroPractica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerRetroPractica.swift; sourceTree = "<group>"; };
+		FB9C866D1E8B1A6A004B6A1B /* ViewControllerCatAprende.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCatAprende.swift; sourceTree = "<group>"; };
+		FB9C866F1E8C60C3004B6A1B /* ViewControllerCatAprendeTrigo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCatAprendeTrigo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB09A46A1E79DEFD00E63004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB09A4641E79DEFC00E63004 = {
+			isa = PBXGroup;
+			children = (
+				FB41B7F51E79F4AF00ECE82B /* cos.png */,
+				FB41B7F61E79F4AF00ECE82B /* sen.png */,
+				FB41B7F71E79F4AF00ECE82B /* tan.png */,
+				FB09A46F1E79DEFD00E63004 /* DeriLearn */,
+				FB09A46E1E79DEFD00E63004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB09A46E1E79DEFD00E63004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB09A46D1E79DEFD00E63004 /* DeriLearn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB09A46F1E79DEFD00E63004 /* DeriLearn */ = {
+			isa = PBXGroup;
+			children = (
+				8E1B12251EA956A800C92CFF /* ViewControllerSelPreg.swift */,
+				FB09A4701E79DEFD00E63004 /* AppDelegate.swift */,
+				FB09A4721E79DEFD00E63004 /* ViewController.swift */,
+				FB09A4741E79DEFD00E63004 /* Main.storyboard */,
+				FB4AA3EA1EAE992D00489447 /* ViewControllerRetroPractica.swift */,
+				8E1B12291EA95B1900C92CFF /* ViewControllerPregunta.swift */,
+				8E1B12271EA9571B00C92CFF /* Property List.plist */,
+				24C986651E8D98260037952F /* ViewControllerFormulario.swift */,
+				FB9C866D1E8B1A6A004B6A1B /* ViewControllerCatAprende.swift */,
+				FB09A47A1E79DEFD00E63004 /* Assets.xcassets */,
+				FB09A48D1E79EA7600E63004 /* exp.png */,
+				FB09A48E1E79EA7600E63004 /* log.png */,
+				FB09A48F1E79EA7600E63004 /* poli.png */,
+				FB09A4901E79EA7600E63004 /* trig.png */,
+				FB09A47C1E79DEFD00E63004 /* LaunchScreen.storyboard */,
+				FB09A47F1E79DEFD00E63004 /* Info.plist */,
+				FB09A4771E79DEFD00E63004 /* DeriLearn.xcdatamodeld */,
+				FB9C866F1E8C60C3004B6A1B /* ViewControllerCatAprendeTrigo.swift */,
+			);
+			path = DeriLearn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB09A46C1E79DEFD00E63004 /* DeriLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB09A4821E79DEFD00E63004 /* Build configuration list for PBXNativeTarget "DeriLearn" */;
+			buildPhases = (
+				FB09A4691E79DEFD00E63004 /* Sources */,
+				FB09A46A1E79DEFD00E63004 /* Frameworks */,
+				FB09A46B1E79DEFD00E63004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeriLearn;
+			productName = DeriLearn;
+			productReference = FB09A46D1E79DEFD00E63004 /* DeriLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB09A4651E79DEFC00E63004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = alumno;
+				TargetAttributes = {
+					FB09A46C1E79DEFD00E63004 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FB09A4681E79DEFC00E63004 /* Build configuration list for PBXProject "DeriLearn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB09A4641E79DEFC00E63004;
+			productRefGroup = FB09A46E1E79DEFD00E63004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB09A46C1E79DEFD00E63004 /* DeriLearn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB09A46B1E79DEFD00E63004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB41B7F91E79F4AF00ECE82B /* sen.png in Resources */,
+				FB09A4941E79EA7600E63004 /* trig.png in Resources */,
+				FB09A47E1E79DEFD00E63004 /* LaunchScreen.storyboard in Resources */,
+				FB41B7FA1E79F4AF00ECE82B /* tan.png in Resources */,
+				FB09A47B1E79DEFD00E63004 /* Assets.xcassets in Resources */,
+				FB09A4761E79DEFD00E63004 /* Main.storyboard in Resources */,
+				FB09A4911E79EA7600E63004 /* exp.png in Resources */,
+				FB09A4921E79EA7600E63004 /* log.png in Resources */,
+				FB09A4931E79EA7600E63004 /* poli.png in Resources */,
+				8E1B12281EA9571B00C92CFF /* Property List.plist in Resources */,
+				FB41B7F81E79F4AF00ECE82B /* cos.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB09A4691E79DEFD00E63004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4AA3EB1EAE992D00489447 /* ViewControllerRetroPractica.swift in Sources */,
+				FB09A4731E79DEFD00E63004 /* ViewController.swift in Sources */,
+				FB09A4791E79DEFD00E63004 /* DeriLearn.xcdatamodeld in Sources */,
+				FB09A4711E79DEFD00E63004 /* AppDelegate.swift in Sources */,
+				FB9C86701E8C60C3004B6A1B /* ViewControllerCatAprendeTrigo.swift in Sources */,
+				8E1B122A1EA95B1900C92CFF /* ViewControllerPregunta.swift in Sources */,
+				8E1B12261EA956A800C92CFF /* ViewControllerSelPreg.swift in Sources */,
+				24C986661E8D98260037952F /* ViewControllerFormulario.swift in Sources */,
+				FB9C866E1E8B1A6A004B6A1B /* ViewControllerCatAprende.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB09A4741E79DEFD00E63004 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB09A4751E79DEFD00E63004 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB09A47C1E79DEFD00E63004 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB09A47D1E79DEFD00E63004 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB09A4801E79DEFD00E63004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB09A4811E79DEFD00E63004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB09A4831E79DEFD00E63004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeriLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.alumno.DeriLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FB09A4841E79DEFD00E63004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeriLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.alumno.DeriLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB09A4681E79DEFC00E63004 /* Build configuration list for PBXProject "DeriLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB09A4801E79DEFD00E63004 /* Debug */,
+				FB09A4811E79DEFD00E63004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB09A4821E79DEFD00E63004 /* Build configuration list for PBXNativeTarget "DeriLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB09A4831E79DEFD00E63004 /* Debug */,
+				FB09A4841E79DEFD00E63004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB09A4771E79DEFD00E63004 /* DeriLearn.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB09A4781E79DEFD00E63004 /* DeriLearn.xcdatamodel */,
+			);
+			currentVersion = FB09A4781E79DEFD00E63004 /* DeriLearn.xcdatamodel */;
+			path = DeriLearn.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB09A4651E79DEFC00E63004 /* Project object */;
+}

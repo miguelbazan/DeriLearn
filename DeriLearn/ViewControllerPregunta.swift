@@ -32,7 +32,6 @@ class ViewControllerPregunta: UIViewController {
         numPreg = 0
         numDic = 0
         LoadDictionary()
-        LoadQuestion()
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,8 +45,23 @@ class ViewControllerPregunta: UIViewController {
             
             Dic = ArrDic.object(at: numDic) as! NSDictionary
             numDic  = numDic + 1
+            LoadQuestion()
+        }else{
+            //let message = "Correctas : (\num)"
+            let alert = UIAlertController(title: "Evaluacion", message: " ", preferredStyle: UIAlertControllerStyle.alert)
+            
+            // add an action (button)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: {
+                action in self.GoBack()
+            }))
+            
+            // show the alert
+            self.present(alert, animated: true, completion: nil)
         }
-        //Puntos Totales en else
+    }
+    func GoBack(){
+    _ = navigationController?.popViewController(animated: true)
+    
     }
     func LoadQuestion(){
         lbPreg.text = Dic.object(forKey:"Pregunta") as? String
@@ -64,9 +78,11 @@ class ViewControllerPregunta: UIViewController {
     @IBAction func btnAction(_ sender: UIButton) {
         if(sender.titleLabel?.text == Dic.object(forKey:"Correcta") as? String){
             lbPreg.text = "YES"
+            
+            //guardar correcto
+            //numArray *seria el boton que le pica, 0,1,2,3 en orden
         }
-       // LoadDictionary()
-        //LoadQuestion()
+         LoadDictionary()
         
     }
     /*

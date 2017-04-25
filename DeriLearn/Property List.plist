@@ -74,26 +74,65 @@
 			<key>Pregunta</key>
 			<string>f(x) = Sen(x^2)</string>
 			<key>Correcta</key>
-			<string>f&apos;(x) = 12x^2 + 2x +1</string>
+			<string>f&apos;(x) = 2xCos(x^2)</string>
 			<key>Respuestas</key>
 			<array>
-				<string>f&apos;(x) = 12x + x +1</string>
-				<string>f&apos;(x) = 12x^3 + x^2</string>
-				<string>f&apos;(x) = 12x^2 + x</string>
-				<string>f&apos;(x) = 12x^2 + 2x +1</string>
+				<string>f&apos;(x) = 2Cos(x)</string>
+				<string>f&apos;(x) = 2xCos(x^2)</string>
+				<string>f&apos;(x) = 2xSen(x^2)</string>
+				<string>f&apos;(x) = xSen(2x)</string>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
 			<string>f(x) = Sen(1 / x^3)</string>
 			<key>Correcta</key>
-			<string>f&apos;(x) = 12x^2 + 2x +1</string>
+			<string>f&apos;(x) = -(3Cos(1/x^3)/x^4</string>
 			<key>Respuestas</key>
 			<array>
-				<string>f&apos;(x) = 12x + x +1</string>
-				<string>f&apos;(x) = 12x^3 + x^2</string>
-				<string>f&apos;(x) = 12x^2 + x</string>
-				<string>f&apos;(x) = 12x^2 + 2x +1</string>
+				<string>f&apos;(x) = -3x^4Sen(x^3)</string>
+				<string>f&apos;(x) = Sen(-3/x^3)</string>
+				<string>f&apos;(x) = -3Cos(1/x^3)</string>
+				<string>f&apos;(x) = -(3Cos(1/x^3)/x^4</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = Cos(3x+2)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = -3Sen(3x+2)</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = -Tan(3x+2)</string>
+				<string>f&apos;(x) = -3Sen(3x+2)</string>
+				<string>f&apos;(x) = (3x+2)Sen(3x+2)</string>
+				<string>f&apos;(x) = xCos(3x + 2)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = Tan(1/x)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = (-Sec^2(1/x))/x^2</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = Sec^2(1/x)</string>
+				<string>f&apos;(x) = -Sec^2(2/x^2)</string>
+				<string>f&apos;(x) = (-Sec^2(1/x))/x^2</string>
+				<string>f&apos;(x) = Sec^2(1/x) / x</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = Sen(Cos(x))</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = -Sen(x)Cos(Cos(x))</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = -Sen(x)Cos(Cos(x))</string>
+				<string>f&apos;(x) = Sen(x)Sen(Cos(x))</string>
+				<string>f&apos;(x) = Tan(x)</string>
+				<string>f&apos;(x) = Cos(Cos(x))</string>
 			</array>
 		</dict>
 	</array>

@@ -14,6 +14,7 @@ class ViewControllerPregunta: UIViewController {
     var Dic : NSDictionary!
     var numPreg : Int!
     var numDic : Int!
+    var numCorr : Int!
     /*
      Pregunta   String
      Correcta   String
@@ -31,6 +32,7 @@ class ViewControllerPregunta: UIViewController {
         // Do any additional setup after loading the view.
         numPreg = 0
         numDic = 0
+        numCorr = 0
         LoadDictionary()
     }
 
@@ -47,8 +49,9 @@ class ViewControllerPregunta: UIViewController {
             numDic  = numDic + 1
             LoadQuestion()
         }else{
-            //let message = "Correctas : (\num)"
-            let alert = UIAlertController(title: "Evaluacion", message: " ", preferredStyle: UIAlertControllerStyle.alert)
+            let num = String(numCorr)
+            let message = "Correctas : " + num
+            let alert = UIAlertController(title: "Evaluacion", message: message, preferredStyle: UIAlertControllerStyle.alert)
             
             // add an action (button)
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: {
@@ -77,8 +80,7 @@ class ViewControllerPregunta: UIViewController {
     
     @IBAction func btnAction(_ sender: UIButton) {
         if(sender.titleLabel?.text == Dic.object(forKey:"Correcta") as? String){
-            lbPreg.text = "YES"
-            
+            numCorr = numCorr + 1
             //guardar correcto
             //numArray *seria el boton que le pica, 0,1,2,3 en orden
         }

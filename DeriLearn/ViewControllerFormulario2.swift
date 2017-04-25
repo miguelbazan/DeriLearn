@@ -7,7 +7,7 @@
 //
 import UIKit
 
-class ViewControllerFormulario: UIViewController,UIScrollViewDelegate {
+class ViewControllerFormulario2: UIViewController,UIScrollViewDelegate {
     
     
     @IBOutlet weak var scView: UIScrollView!

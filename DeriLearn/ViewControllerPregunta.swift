@@ -49,23 +49,10 @@ class ViewControllerPregunta: UIViewController {
             numDic  = numDic + 1
             LoadQuestion()
         }else{
-            let num = String(numCorr)
-            let message = "Correctas : " + num
-            let alert = UIAlertController(title: "Evaluacion", message: message, preferredStyle: UIAlertControllerStyle.alert)
-            
-            // add an action (button)
-            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: {
-                action in self.GoBack()
-            }))
-            
-            // show the alert
-            self.present(alert, animated: true, completion: nil)
+            Mensaje()
         }
     }
-    func GoBack(){
-    _ = navigationController?.popViewController(animated: true)
     
-    }
     func LoadQuestion(){
         lbPreg.text = Dic.object(forKey:"Pregunta") as? String
         let arrResp = Dic.object(forKey: "Respuestas") as! [String]
@@ -85,6 +72,25 @@ class ViewControllerPregunta: UIViewController {
             //numArray *seria el boton que le pica, 0,1,2,3 en orden
         }
          LoadDictionary()
+        
+    }
+    // MARK : Regreso
+    func Mensaje(){
+        let num = String(numCorr)
+        let message = "Correctas : " + num
+        let alert = UIAlertController(title: "Evaluacion", message: message, preferredStyle: UIAlertControllerStyle.alert)
+        
+        // add an action (button)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler:{
+            action in self.GoBack()
+        }))
+        
+        // show the alert
+        self.present(alert, animated: true, completion: nil)
+        
+    }
+    func GoBack(){
+        _ = navigationController?.popViewController(animated: true)
         
     }
     /*

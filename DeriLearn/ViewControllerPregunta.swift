@@ -15,6 +15,7 @@ class ViewControllerPregunta: UIViewController {
     var numPreg : Int!
     var numDic : Int!
     var numCorr : Int!
+    var numArray : Int!
     /*
      Pregunta   String
      Correcta   String
@@ -34,6 +35,7 @@ class ViewControllerPregunta: UIViewController {
         numDic = 0
         numCorr = 0
         LoadDictionary()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -90,6 +92,17 @@ class ViewControllerPregunta: UIViewController {
         
     }
     func GoBack(){
+        let path = Bundle.main.path(forResource: "PregPun", ofType: "plist")
+        //Es un Array que los
+        let DicResp = NSMutableDictionary(contentsOfFile: path!)
+        let arrResp = DicResp?.object(forKey: "Problemas") as! NSMutableArray
+        let arrErro = DicResp?.object(forKey: "Incorrectas") as! NSMutableArray
+        let num = (arrResp.object(at: numArray) as? Int)! + numCorr
+        arrResp.replaceObject(at: numArray, with: num)
+        //5-numCorr por que solo hay 5 preguntas.
+        let numIn = (arrErro.object(at: numArray) as? Int)! + (5 - numCorr)
+        arrErro.replaceObject(at: numArray, with: numIn)
+        DicResp?.write(toFile: path!, atomically: true)
         _ = navigationController?.popViewController(animated: true)
         
     }

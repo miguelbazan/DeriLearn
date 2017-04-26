@@ -55,25 +55,26 @@ class ViewControllerSelPreg: UIViewController {
             let dest = segue.destination as! ViewControllerPregunta
             let arrDictionary = arrArrDictionary[0] as! NSArray
             dest.ArrDic = arrDictionary
+            dest.numArray = 0
             
         }
         if(segue.identifier == "trig"){
             let dest = segue.destination as! ViewControllerPregunta
             let arrDictionary = arrArrDictionary[1] as! NSArray
             dest.ArrDic = arrDictionary
-            
+            dest.numArray = 1
         }
         if(segue.identifier == "log"){
             let dest = segue.destination as! ViewControllerPregunta
             let arrDictionary = arrArrDictionary[2] as! NSArray
             dest.ArrDic = arrDictionary
-            
+            dest.numArray = 2
         }
         if(segue.identifier == "exp"){
             let dest = segue.destination as! ViewControllerPregunta
             let arrDictionary = arrArrDictionary[3] as! NSArray
             dest.ArrDic = arrDictionary
-            
+            dest.numArray = 3
         }
         
     }

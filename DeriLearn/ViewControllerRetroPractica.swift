@@ -23,7 +23,7 @@ class ViewControllerRetroPractica: UIViewController {
         self.title = "Estadísticas"
         super.viewDidLoad()
         
-        let path = Bundle.main.path(forResource: "PregPun", ofType: "plist")
+        let path = Bundle.main.path(forResource:"PregPun", ofType: "plist")
         //Es un Array que los
         let DicResp = NSMutableDictionary(contentsOfFile: path!)
         let arrResp = DicResp?.object(forKey: "Problemas") as! NSMutableArray

@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="80J-Wf-TW7">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="80J-Wf-TW7">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -616,6 +616,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.96862745098039216" green="1" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="corExp" destination="qcw-3b-Uc9" id="Y1J-Nm-Xxx"/>
+                        <outlet property="corLog" destination="Zcr-Zz-VwV" id="Yjf-3r-ShL"/>
+                        <outlet property="corPoli" destination="Okf-kD-OgT" id="nzk-Ta-tzp"/>
+                        <outlet property="corTri" destination="rM8-1J-e8Z" id="Shq-aZ-cKy"/>
+                        <outlet property="incExp" destination="V69-6H-8Y2" id="yKI-Wf-ez6"/>
+                        <outlet property="incLog" destination="Kjc-3z-BC8" id="5R1-VJ-VzG"/>
+                        <outlet property="incPoli" destination="OSn-O9-6QF" id="nBF-Hm-sZN"/>
+                        <outlet property="incTri" destination="c0n-AO-aSJ" id="77F-Tu-pc4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Asf-E7-pti" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -11,6 +11,8 @@
 		8E1B12261EA956A800C92CFF /* ViewControllerSelPreg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B12251EA956A800C92CFF /* ViewControllerSelPreg.swift */; };
 		8E1B12281EA9571B00C92CFF /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E1B12271EA9571B00C92CFF /* Property List.plist */; };
 		8E1B122A1EA95B1900C92CFF /* ViewControllerPregunta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B12291EA95B1900C92CFF /* ViewControllerPregunta.swift */; };
+		8E840D591EB8FB7400F60403 /* ViewControllerFormulario2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E840D561EB8FB7400F60403 /* ViewControllerFormulario2.swift */; };
+		8E840D5B1EB8FC4800F60403 /* PregPun.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E840D5A1EB8FC4800F60403 /* PregPun.plist */; };
 		FB09A4711E79DEFD00E63004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09A4701E79DEFD00E63004 /* AppDelegate.swift */; };
 		FB09A4731E79DEFD00E63004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09A4721E79DEFD00E63004 /* ViewController.swift */; };
 		FB09A4761E79DEFD00E63004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB09A4741E79DEFD00E63004 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 		8E1B12251EA956A800C92CFF /* ViewControllerSelPreg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerSelPreg.swift; path = ../ViewControllerSelPreg.swift; sourceTree = "<group>"; };
 		8E1B12271EA9571B00C92CFF /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		8E1B12291EA95B1900C92CFF /* ViewControllerPregunta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPregunta.swift; sourceTree = "<group>"; };
+		8E840D561EB8FB7400F60403 /* ViewControllerFormulario2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFormulario2.swift; sourceTree = "<group>"; };
+		8E840D5A1EB8FC4800F60403 /* PregPun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PregPun.plist; path = ../PregPun.plist; sourceTree = "<group>"; };
 		FB09A46D1E79DEFD00E63004 /* DeriLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeriLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB09A4701E79DEFD00E63004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB09A4721E79DEFD00E63004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 		FB09A46F1E79DEFD00E63004 /* DeriLearn */ = {
 			isa = PBXGroup;
 			children = (
+				8E840D5A1EB8FC4800F60403 /* PregPun.plist */,
+				8E840D561EB8FB7400F60403 /* ViewControllerFormulario2.swift */,
 				8E1B12251EA956A800C92CFF /* ViewControllerSelPreg.swift */,
 				FB09A4701E79DEFD00E63004 /* AppDelegate.swift */,
 				FB09A4721E79DEFD00E63004 /* ViewController.swift */,
@@ -171,6 +177,7 @@
 				FB41B7F91E79F4AF00ECE82B /* sen.png in Resources */,
 				FB09A4941E79EA7600E63004 /* trig.png in Resources */,
 				FB09A47E1E79DEFD00E63004 /* LaunchScreen.storyboard in Resources */,
+				8E840D5B1EB8FC4800F60403 /* PregPun.plist in Resources */,
 				FB41B7FA1E79F4AF00ECE82B /* tan.png in Resources */,
 				FB09A47B1E79DEFD00E63004 /* Assets.xcassets in Resources */,
 				FB09A4761E79DEFD00E63004 /* Main.storyboard in Resources */,
@@ -189,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E840D591EB8FB7400F60403 /* ViewControllerFormulario2.swift in Sources */,
 				FB4AA3EB1EAE992D00489447 /* ViewControllerRetroPractica.swift in Sources */,
 				FB09A4731E79DEFD00E63004 /* ViewController.swift in Sources */,
 				FB09A4791E79DEFD00E63004 /* DeriLearn.xcdatamodeld in Sources */,

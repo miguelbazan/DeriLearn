@@ -72,9 +72,26 @@ class ViewControllerPregunta: UIViewController {
             numCorr = numCorr + 1
             //guardar correcto
             //numArray *seria el boton que le pica, 0,1,2,3 en orden
+            quickSaveCorr()
+            LoadDictionary()
+        }else{
+            quickSaveInc()
+            MensajeErrorPreg()
         }
-         LoadDictionary()
         
+    }
+    
+    func MensajeErrorPreg(){
+        let corr = Dic.object(forKey:"Correcta") as? String!
+        let message = "Correcta : " + corr!
+        
+        let alert = UIAlertController(title: "Incorrecto", message: message, preferredStyle: UIAlertControllerStyle.alert)
+        
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {
+            action in self.LoadDictionary()
+        }))
+        
+        self.present(alert, animated: true, completion: nil)
     }
     // MARK : Regreso
     func Mensaje(){
@@ -91,18 +108,23 @@ class ViewControllerPregunta: UIViewController {
         self.present(alert, animated: true, completion: nil)
         
     }
-    func GoBack(){
-        let path = Bundle.main.path(forResource: "PregPun", ofType: "plist")
-        //Es un Array que los
+    func quickSaveCorr(){
+         let path = Bundle.main.path(forResource: "PregPun", ofType: "plist")
         let DicResp = NSMutableDictionary(contentsOfFile: path!)
         let arrResp = DicResp?.object(forKey: "Problemas") as! NSMutableArray
-        let arrErro = DicResp?.object(forKey: "Incorrectas") as! NSMutableArray
-        let num = (arrResp.object(at: numArray) as? Int)! + numCorr
+        let num = (arrResp.object(at: numArray) as? Int)! + 1
         arrResp.replaceObject(at: numArray, with: num)
-        //5-numCorr por que solo hay 5 preguntas.
-        let numIn = (arrErro.object(at: numArray) as? Int)! + (5 - numCorr)
+         DicResp?.write(toFile: path!, atomically: true)
+    }
+    func quickSaveInc(){
+         let path = Bundle.main.path(forResource: "PregPun", ofType: "plist")
+        let DicResp = NSMutableDictionary(contentsOfFile: path!)
+        let arrErro = DicResp?.object(forKey: "Incorrectas") as! NSMutableArray
+        let numIn = (arrErro.object(at: numArray) as? Int)! + 1
         arrErro.replaceObject(at: numArray, with: numIn)
-        DicResp?.write(toFile: path!, atomically: true)
+         DicResp?.write(toFile: path!, atomically: true)
+    }
+    func GoBack(){
         _ = navigationController?.popViewController(animated: true)
         
     }

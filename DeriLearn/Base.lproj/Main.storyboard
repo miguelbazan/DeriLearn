@@ -243,14 +243,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" minimumZoomScale="0.29999999999999999" maximumZoomScale="2" translatesAutoresizingMaskIntoConstraints="NO" id="jG7-Dn-3rh">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="jG7-Dn-3rh" firstAttribute="bottom" secondItem="6RH-Cn-F69" secondAttribute="top" id="l5T-fx-9ae"/>
                             <constraint firstAttribute="trailing" secondItem="jG7-Dn-3rh" secondAttribute="trailing" id="qe9-rI-Unv"/>
-                            <constraint firstItem="jG7-Dn-3rh" firstAttribute="top" secondItem="pq8-d9-2fJ" secondAttribute="top" id="tBz-oK-N5g"/>
+                            <constraint firstItem="jG7-Dn-3rh" firstAttribute="top" secondItem="pq8-d9-2fJ" secondAttribute="top" constant="20" id="tBz-oK-N5g"/>
                             <constraint firstItem="jG7-Dn-3rh" firstAttribute="leading" secondItem="pq8-d9-2fJ" secondAttribute="leading" id="tQa-ud-z3B"/>
                         </constraints>
                     </view>

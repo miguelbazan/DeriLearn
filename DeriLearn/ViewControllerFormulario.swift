@@ -22,7 +22,7 @@ class ViewControllerFormulario: UIViewController,UIScrollViewDelegate {
         
         scView.addSubview(imageView)
         scView.contentSize = (imagen?.size)!
-        scView.setContentOffset(CGPoint(x: 500, y: 300), animated: true)
+        scView.setContentOffset(CGPoint(x: -500, y: 300), animated: true)
         
         
         
@@ -37,4 +37,17 @@ class ViewControllerFormulario: UIViewController,UIScrollViewDelegate {
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
         return imageView
     }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        
+        return UIInterfaceOrientationMask.portrait
+        
+    }
+    
+    override var shouldAutorotate: Bool {
+        
+        return false
+        
+    }
+
 }

@@ -72,4 +72,16 @@ class ViewControllerFormulario2: UIViewController,UIScrollViewDelegate {
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
         return imageView
     }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        
+        return UIInterfaceOrientationMask.portrait
+        
+    }
+    
+    override var shouldAutorotate: Bool {
+        
+        return false
+        
+    }
 }

@@ -20,11 +20,12 @@ provides-dynamic-lookup:
 - "btnPregUno"
 - "didReceiveMemoryWarning"
 - "lbPreg"
+- "quickSaveCorr"
+- "quickSaveInc"
 - "viewDidLoad"
 depends-top-level:
 - !private "!="
 - !private "+"
-- !private "-"
 - !private "=="
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
@@ -79,6 +80,8 @@ depends-member:
 - !private ["Ps9AnyObject", "path"]
 - !private ["Ps9AnyObject", "popViewController"]
 - !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "quickSaveCorr"]
+- !private ["Ps9AnyObject", "quickSaveInc"]
 - !private ["Ps9AnyObject", "replaceObject"]
 - !private ["Ps9AnyObject", "setTitle"]
 - !private ["Ps9AnyObject", "text"]
@@ -127,6 +130,8 @@ depends-member:
 - !private ["Ps7CVarArg", "path"]
 - !private ["Ps7CVarArg", "popViewController"]
 - !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "quickSaveCorr"]
+- !private ["Ps7CVarArg", "quickSaveInc"]
 - !private ["Ps7CVarArg", "replaceObject"]
 - !private ["Ps7CVarArg", "setTitle"]
 - !private ["Ps7CVarArg", "subscript"]
@@ -170,6 +175,8 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "path"]
 - !private ["Ps28CustomDebugStringConvertible", "popViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "quickSaveCorr"]
+- !private ["Ps28CustomDebugStringConvertible", "quickSaveInc"]
 - !private ["Ps28CustomDebugStringConvertible", "replaceObject"]
 - !private ["Ps28CustomDebugStringConvertible", "setTitle"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
@@ -221,6 +228,8 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "path"]
 - !private ["Ps23CustomStringConvertible", "popViewController"]
 - !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "quickSaveCorr"]
+- !private ["Ps23CustomStringConvertible", "quickSaveInc"]
 - !private ["Ps23CustomStringConvertible", "replaceObject"]
 - !private ["Ps23CustomStringConvertible", "setTitle"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
@@ -266,6 +275,8 @@ depends-member:
 - !private ["Ps9Equatable", "path"]
 - !private ["Ps9Equatable", "popViewController"]
 - !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "quickSaveCorr"]
+- !private ["Ps9Equatable", "quickSaveInc"]
 - !private ["Ps9Equatable", "replaceObject"]
 - !private ["Ps9Equatable", "setTitle"]
 - !private ["Ps9Equatable", "text"]
@@ -321,6 +332,8 @@ depends-member:
 - !private ["Ps8Hashable", "path"]
 - !private ["Ps8Hashable", "popViewController"]
 - !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "quickSaveCorr"]
+- !private ["Ps8Hashable", "quickSaveInc"]
 - !private ["Ps8Hashable", "replaceObject"]
 - !private ["Ps8Hashable", "setTitle"]
 - !private ["Ps8Hashable", "text"]
@@ -366,6 +379,8 @@ depends-member:
 - !private ["PSo8NSCoding", "object"]
 - !private ["PSo8NSCoding", "popViewController"]
 - !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "quickSaveCorr"]
+- !private ["PSo8NSCoding", "quickSaveInc"]
 - !private ["PSo8NSCoding", "replaceObject"]
 - !private ["PSo8NSCoding", "setTitle"]
 - !private ["PSo8NSCoding", "text"]
@@ -410,6 +425,8 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "numPreg"]
 - !private ["PSo26NSExtensionRequestHandling", "popViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo26NSExtensionRequestHandling", "quickSaveCorr"]
+- !private ["PSo26NSExtensionRequestHandling", "quickSaveInc"]
 - !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["PSo17NSFastEnumeration", "count"]
@@ -470,6 +487,8 @@ depends-member:
 - !private ["CSo8NSObject", "path"]
 - !private ["CSo8NSObject", "popViewController"]
 - !private ["CSo8NSObject", "present"]
+- ["CSo8NSObject", "quickSaveCorr"]
+- ["CSo8NSObject", "quickSaveInc"]
 - !private ["CSo8NSObject", "replaceObject"]
 - !private ["CSo8NSObject", "setTitle"]
 - !private ["CSo8NSObject", "text"]
@@ -509,6 +528,8 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "path"]
 - !private ["PSo16NSObjectProtocol", "popViewController"]
 - !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "quickSaveCorr"]
+- !private ["PSo16NSObjectProtocol", "quickSaveInc"]
 - !private ["PSo16NSObjectProtocol", "replaceObject"]
 - !private ["PSo16NSObjectProtocol", "setTitle"]
 - !private ["PSo16NSObjectProtocol", "text"]
@@ -578,6 +599,8 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "numPreg"]
 - !private ["PSo21UIAppearanceContainer", "popViewController"]
 - !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "quickSaveCorr"]
+- !private ["PSo21UIAppearanceContainer", "quickSaveInc"]
 - !private ["PSo21UIAppearanceContainer", "setTitle"]
 - !private ["PSo21UIAppearanceContainer", "text"]
 - !private ["PSo21UIAppearanceContainer", "titleLabel"]
@@ -614,6 +637,8 @@ depends-member:
 - !private ["PSo18UIContentContainer", "numPreg"]
 - !private ["PSo18UIContentContainer", "popViewController"]
 - !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo18UIContentContainer", "quickSaveCorr"]
+- !private ["PSo18UIContentContainer", "quickSaveInc"]
 - !private ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
 - !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
@@ -655,6 +680,8 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "numPreg"]
 - !private ["PSo18UIFocusEnvironment", "popViewController"]
 - !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "quickSaveCorr"]
+- !private ["PSo18UIFocusEnvironment", "quickSaveInc"]
 - !private ["PSo18UIFocusEnvironment", "setTitle"]
 - !private ["PSo18UIFocusEnvironment", "text"]
 - !private ["PSo18UIFocusEnvironment", "titleLabel"]
@@ -701,6 +728,8 @@ depends-member:
 - ["CSo11UIResponder", "numPreg"]
 - !private ["CSo11UIResponder", "popViewController"]
 - !private ["CSo11UIResponder", "present"]
+- ["CSo11UIResponder", "quickSaveCorr"]
+- ["CSo11UIResponder", "quickSaveInc"]
 - !private ["CSo11UIResponder", "setTitle"]
 - !private ["CSo11UIResponder", "text"]
 - !private ["CSo11UIResponder", "titleLabel"]
@@ -734,6 +763,8 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "numPreg"]
 - !private ["PSo30UIResponderStandardEditActions", "popViewController"]
 - !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "quickSaveCorr"]
+- !private ["PSo30UIResponderStandardEditActions", "quickSaveInc"]
 - !private ["PSo30UIResponderStandardEditActions", "setTitle"]
 - !private ["PSo30UIResponderStandardEditActions", "text"]
 - !private ["PSo30UIResponderStandardEditActions", "titleLabel"]
@@ -768,6 +799,8 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "numPreg"]
 - !private ["PSo16UIStateRestoring", "popViewController"]
 - !private ["PSo16UIStateRestoring", "present"]
+- !private ["PSo16UIStateRestoring", "quickSaveCorr"]
+- !private ["PSo16UIStateRestoring", "quickSaveInc"]
 - !private ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
 - !private ["PSo18UITraitEnvironment", "ArrDic"]
@@ -799,6 +832,8 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "numPreg"]
 - !private ["PSo18UITraitEnvironment", "popViewController"]
 - !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "quickSaveCorr"]
+- !private ["PSo18UITraitEnvironment", "quickSaveInc"]
 - !private ["PSo18UITraitEnvironment", "setTitle"]
 - !private ["PSo18UITraitEnvironment", "text"]
 - !private ["PSo18UITraitEnvironment", "titleLabel"]
@@ -843,6 +878,8 @@ depends-member:
 - ["CSo16UIViewController", "numPreg"]
 - !private ["CSo16UIViewController", "popViewController"]
 - !private ["CSo16UIViewController", "present"]
+- ["CSo16UIViewController", "quickSaveCorr"]
+- ["CSo16UIViewController", "quickSaveInc"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
 - ["C9DeriLearn22ViewControllerPregunta", "ArrDic"]
@@ -880,6 +917,8 @@ depends-member:
 - ["C9DeriLearn22ViewControllerPregunta", "numDic"]
 - ["C9DeriLearn22ViewControllerPregunta", "numPreg"]
 - !private ["C9DeriLearn22ViewControllerPregunta", "present"]
+- ["C9DeriLearn22ViewControllerPregunta", "quickSaveCorr"]
+- ["C9DeriLearn22ViewControllerPregunta", "quickSaveInc"]
 - ["C9DeriLearn22ViewControllerPregunta", "viewDidLoad"]
 - !private ["Ps14_ArrayProtocol", "subscript"]
 - !private ["Ps23_BidirectionalIndexable", "subscript"]
@@ -930,6 +969,8 @@ depends-member:
 - !private ["Ps9_Hashable", "path"]
 - !private ["Ps9_Hashable", "popViewController"]
 - !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "quickSaveCorr"]
+- !private ["Ps9_Hashable", "quickSaveInc"]
 - !private ["Ps9_Hashable", "replaceObject"]
 - !private ["Ps9_Hashable", "setTitle"]
 - !private ["Ps9_Hashable", "text"]
@@ -1056,4 +1097,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "ddaa86f990df5e9b676f4b3326d44fc2"
+interface-hash: "221bc21aeb147833b030c3b7b16adf68"

@@ -13,7 +13,7 @@ class ViewControllerFormulario: UIViewController,UIScrollViewDelegate {
     
     @IBOutlet weak var scView: UIScrollView!
     let imagen = UIImage(named: "formulario")
-    let imageView = UIImageView(image: #imageLiteral(resourceName: "formulario"))
+    let imageView = UIImageView(image: #imageLiteral(resourceName: "form"))
     
     
     override func viewDidLoad() {

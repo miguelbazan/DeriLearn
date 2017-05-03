@@ -255,6 +255,7 @@ SWIFT_CLASS("_TtC9DeriLearn22ViewControllerPregunta")
 - (void)LoadDictionary;
 - (void)LoadQuestion;
 - (IBAction)btnAction:(UIButton * _Nonnull)sender;
+- (void)MensajeCorrectoPreg;
 - (void)MensajeErrorPreg;
 - (void)Mensaje;
 - (void)quickSaveCorr;

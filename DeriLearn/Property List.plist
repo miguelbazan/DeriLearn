@@ -68,6 +68,71 @@
 				<string>f&apos;(x) = -3/x^2</string>
 			</array>
 		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = 9x^5 + 12x^3 + 10x</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = 45x^4 + 36x^2 + 10</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = 9x^5 + 36x^3 + 10</string>
+				<string>f&apos;(x) = 45^5 + 36x^2 + 10x</string>
+				<string>f&apos;(x) = 45x^4 + 36x^2 + 10</string>
+				<string>f&apos;(x) = 54x^4 + 36x^2 + 10x</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = 9x^-2 + 6x^-4 - 2x^1/2</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = -(18/x^3) - (24/x^5) - (1/x^1/2)</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = (18/x^-3) + (24/x^-5) - (1/x^1/2)</string>
+				<string>f&apos;(x) = -(18/x^3) - (24/x^5) - (1/x^1/2)</string>
+				<string>f&apos;(x) = -(18/x^3) - (24/x^5) - (2/x^1/2)</string>
+				<string>f&apos;(x) = -(18/x^2) - (24/x^4) - (1/x^1/2)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = 6x^3 + 2x^2 - 6x + 1/x^1/5</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = 18x^2 + 4x - 6 - (1/(5x^1/5))</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = 18x^2 + 4x - 6 - (1/(5x^1/5))</string>
+				<string>f&apos;(x) = 18x^2 + 4x - 6 - (1/(5x^-1/5))</string>
+				<string>f&apos;(x) = 18x^3 + 4x^2 - 6 - (1/(5x^1/5))</string>
+				<string>f&apos;(x) = 18x^2 + 4x - 6 - (1/(5x^1/5))</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = 5x^4 - 2x^3 + 6x^2 + x + 1</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = 20x^3 - 6x^2 + 12x + 1 </string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = 20x^3 - 6x^2 + 12x</string>
+				<string>f&apos;(x) = 20x^3 + 6x^2 + 12x + x </string>
+				<string>f&apos;(x) = 20x^3 - 6x^2 + 12x + 1 </string>
+				<string>f&apos;(x) = 20x^3 - 6x^2 + 12x + x + 1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = 3x^3 + 2x + 5</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = 9x^2 + 2</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = 6x^2 + 2x</string>
+				<string>f&apos;(x) = 9x^2 + 2</string>
+				<string>f&apos;(x) = 9x^3 + 2</string>
+				<string>f&apos;(x) = 9x^2 + 5</string>
+			</array>
+		</dict>
 	</array>
 	<array>
 		<dict>
@@ -133,6 +198,71 @@
 				<string>f&apos;(x) = Sen(x)Sen(Cos(x))</string>
 				<string>f&apos;(x) = Tan(x)</string>
 				<string>f&apos;(x) = Cos(Cos(x))</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = Sen(2x)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = 2Cos(2x)</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = Cos(2x)</string>
+				<string>f&apos;(x) = 2Sen(2x)</string>
+				<string>f&apos;(x) = 2Cos(2x)</string>
+				<string>f&apos;(x) = Sen(2)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = Cos(20x^3 - x)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = -(60x^2 - 1)Sen(20x^3 - x)</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = (60x^2 - 1)Sen(20x^3 - x)</string>
+				<string>f&apos;(x) = -(60x^2 - 1)Sen(20x^3 - x)</string>
+				<string>f&apos;(x) = -(60x^2 - 1)Cos(20x^3 - x)</string>
+				<string>f&apos;(x) = (60x^2 - 1)Cos(20x^3 - x)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = Tan(9x)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = 9Sec^2(9x)</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = 9xSec^2(9x)</string>
+				<string>f&apos;(x) = 9Tan^2(9x)</string>
+				<string>f&apos;(x) = -9Sec^2(9x)</string>
+				<string>f&apos;(x) = 9Sec^2(9x)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = Tan(9x)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = 9Sec^2(9x)</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = 9xSec^2(9x)</string>
+				<string>f&apos;(x) = 9Tan^2(9x)</string>
+				<string>f&apos;(x) = -9Sec^2(9x)</string>
+				<string>f&apos;(x) = 9Sec^2(9x)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = 8x^4 + Tan(5x^5)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = 32x^3 + (25x^4)Sec^2(5x^5)</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = 32x^3 + (25x^4)Sec^2(5x^5)</string>
+				<string>f&apos;(x) = 32x^3 + Sec^2(5x^5)</string>
+				<string>f&apos;(x) = 32x^3 + (25x^4)Tan(5x^5)</string>
+				<string>f&apos;(x) = (25x^4)Sec^2(5x^5)</string>
 			</array>
 		</dict>
 	</array>
@@ -202,6 +332,71 @@
 				<string>f&apos;(x) = 2x+1</string>
 			</array>
 		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = Log(15x)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = 1/x</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = 1/Log(15x)</string>
+				<string>f&apos;(x) = 15/x</string>
+				<string>f&apos;(x) = 1/x</string>
+				<string>f&apos;(x) = -(1/x)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = Log(4x^3 + 2)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = (12x^2)/(4x^3 + 2)</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = (12x^2)/(12x^2 + 2)</string>
+				<string>f&apos;(x) = (12x^2)/(4x^3)</string>
+				<string>f&apos;(x) = (12x^2 + 2)/(4x^3 + 2)</string>
+				<string>f&apos;(x) = (12x^2)/(4x^3 + 2)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = 18x^2 + Log(x^3)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = 36x + 3/x</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = 36x + 3/3x^2</string>
+				<string>f&apos;(x) = 18x^2+ 3/x</string>
+				<string>f&apos;(x) = 36x + 3/x</string>
+				<string>f&apos;(x) = 36x + 3x^2/Log(x^3)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = Log(Log(2x))</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = 1/(xLog(2x))</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = 1/(Log(2x))</string>
+				<string>f&apos;(x) = 1/x</string>
+				<string>f&apos;(x) = 2/(xLog(2x))</string>
+				<string>f&apos;(x) = 1/(xLog(2x))</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = Log(3x+4x^4)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x) = (3 + 16x^3)/(3x+4x^4)</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x) = (3 + 16x^3)/(3x+4x^4)</string>
+				<string>f&apos;(x) = (3 + 16x^3)/Log(3x+4x^4)</string>
+				<string>f&apos;(x) = (3 - 16x^3)/(3x+4x^4)</string>
+				<string>f&apos;(x) = (3 + 16x^3)Log(3x+4x^4)</string>
+			</array>
+		</dict>
 	</array>
 	<array>
 		<dict>
@@ -267,6 +462,71 @@
 				<string>f&apos;(x)=e^(8x)</string>
 				<string>f&apos;(x)=x</string>
 				<string>f&apos;(x)=8e^(8x)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = e^(20x^2)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x)=40xe^(20x^2)</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x)=e^(40x)</string>
+				<string>f&apos;(x)=40xe^(20x^2)</string>
+				<string>f&apos;(x)=40x</string>
+				<string>f&apos;(x)=-40xe^(20x^2)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = 10x^3 + 2e^(5x)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x)=30x^2 + 10e^(5x)</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x)=30x^3 + 10e^(5x)</string>
+				<string>f&apos;(x)=30x^2 - 10e^(5x)</string>
+				<string>f&apos;(x)=30x^2</string>
+				<string>f&apos;(x)=30x^2 + 10e^(5x)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = 9x^5 + e^(2x^3)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x)= 45x^4 + 6x^2e^(2x^3)</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x)= 45x^5 + 6x^2e^(2x^3)</string>
+				<string>f&apos;(x)= 45x^4 + e^(2x^3)</string>
+				<string>f&apos;(x)= 45x^4 + 6x^2e^(2x^3)</string>
+				<string>f&apos;(x)= 45x^4 - 6x^2e^(2x^3)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = e^(12x^5)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x)= (60x^4)e^(12x^5)</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x)= (12x^5)e^(12x^5)</string>
+				<string>f&apos;(x)= (60x^4)e^(60x^4)</string>
+				<string>f&apos;(x)= (60x^5)e^(12x^5)</string>
+				<string>f&apos;(x)= (60x^4)e^(12x^5)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>f(x) = e^(21x^3 + 1)</string>
+			<key>Correcta</key>
+			<string>f&apos;(x)= (63x^2)e^(21x^3 + 1)</string>
+			<key>Respuestas</key>
+			<array>
+				<string>f&apos;(x)= (63x^2)e^(21x^3 + 1)</string>
+				<string>f&apos;(x)= (63x^3)e^(21x^3 + 1)</string>
+				<string>f&apos;(x)= (63x^2 + 1)e^(21x^3 + 1)</string>
+				<string>f&apos;(x)= (21x^3)e^(21x^3 + 1)</string>
 			</array>
 		</dict>
 	</array>

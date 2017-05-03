@@ -233,7 +233,7 @@
         <!--Formulario-->
         <scene sceneID="Wc4-gi-Ovj">
             <objects>
-                <viewController id="046-dE-z0w" customClass="ViewControllerFormulario" customModule="DeriLearn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="046-dE-z0w" customClass="ViewControllerFormulario2" customModule="DeriLearn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4xp-BA-nhf"/>
                         <viewControllerLayoutGuide type="bottom" id="6RH-Cn-F69"/>

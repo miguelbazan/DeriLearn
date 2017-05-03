@@ -73,7 +73,8 @@ class ViewControllerPregunta: UIViewController {
             //guardar correcto
             //numArray *seria el boton que le pica, 0,1,2,3 en orden
             quickSaveCorr()
-            LoadDictionary()
+            MensajeCorrectoPreg()
+            //LoadDictionary()
         }else{
             quickSaveInc()
             MensajeErrorPreg()
@@ -81,9 +82,21 @@ class ViewControllerPregunta: UIViewController {
         
     }
     
+    func MensajeCorrectoPreg(){
+        let message = ""
+        
+        let alert = UIAlertController(title: "¡Correcto!", message: message, preferredStyle: UIAlertControllerStyle.alert)
+        
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {
+            action in self.LoadDictionary()
+        }))
+        
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     func MensajeErrorPreg(){
-        let corr = Dic.object(forKey:"Correcta") as? String!
-        let message = "Correcta : " + corr!
+        
+        let message = ""
         
         let alert = UIAlertController(title: "Incorrecto", message: message, preferredStyle: UIAlertControllerStyle.alert)
         

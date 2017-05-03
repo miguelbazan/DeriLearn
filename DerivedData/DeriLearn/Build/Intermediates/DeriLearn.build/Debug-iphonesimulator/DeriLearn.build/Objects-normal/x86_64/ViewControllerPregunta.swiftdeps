@@ -12,6 +12,7 @@ provides-dynamic-lookup:
 - "LoadDictionary"
 - "LoadQuestion"
 - "Mensaje"
+- "MensajeCorrectoPreg"
 - "MensajeErrorPreg"
 - "btnAction"
 - "btnPregCuatro"
@@ -54,6 +55,7 @@ depends-member:
 - !private ["Ps9AnyObject", "LoadDictionary"]
 - !private ["Ps9AnyObject", "LoadQuestion"]
 - !private ["Ps9AnyObject", "Mensaje"]
+- !private ["Ps9AnyObject", "MensajeCorrectoPreg"]
 - !private ["Ps9AnyObject", "MensajeErrorPreg"]
 - !private ["Ps9AnyObject", "NSMutableDictionary"]
 - !private ["Ps9AnyObject", "String"]
@@ -104,6 +106,7 @@ depends-member:
 - !private ["Ps7CVarArg", "LoadDictionary"]
 - !private ["Ps7CVarArg", "LoadQuestion"]
 - !private ["Ps7CVarArg", "Mensaje"]
+- !private ["Ps7CVarArg", "MensajeCorrectoPreg"]
 - !private ["Ps7CVarArg", "MensajeErrorPreg"]
 - !private ["Ps7CVarArg", "NSMutableDictionary"]
 - !private ["Ps7CVarArg", "String"]
@@ -149,6 +152,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "LoadDictionary"]
 - !private ["Ps28CustomDebugStringConvertible", "LoadQuestion"]
 - !private ["Ps28CustomDebugStringConvertible", "Mensaje"]
+- !private ["Ps28CustomDebugStringConvertible", "MensajeCorrectoPreg"]
 - !private ["Ps28CustomDebugStringConvertible", "MensajeErrorPreg"]
 - !private ["Ps28CustomDebugStringConvertible", "NSMutableDictionary"]
 - !private ["Ps28CustomDebugStringConvertible", "String"]
@@ -201,6 +205,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "LoadDictionary"]
 - !private ["Ps23CustomStringConvertible", "LoadQuestion"]
 - !private ["Ps23CustomStringConvertible", "Mensaje"]
+- !private ["Ps23CustomStringConvertible", "MensajeCorrectoPreg"]
 - !private ["Ps23CustomStringConvertible", "MensajeErrorPreg"]
 - !private ["Ps23CustomStringConvertible", "NSMutableDictionary"]
 - !private ["Ps23CustomStringConvertible", "String"]
@@ -245,6 +250,7 @@ depends-member:
 - !private ["Ps9Equatable", "LoadDictionary"]
 - !private ["Ps9Equatable", "LoadQuestion"]
 - !private ["Ps9Equatable", "Mensaje"]
+- !private ["Ps9Equatable", "MensajeCorrectoPreg"]
 - !private ["Ps9Equatable", "MensajeErrorPreg"]
 - !private ["Ps9Equatable", "NSMutableDictionary"]
 - !private ["Ps9Equatable", "String"]
@@ -303,6 +309,7 @@ depends-member:
 - !private ["Ps8Hashable", "LoadDictionary"]
 - !private ["Ps8Hashable", "LoadQuestion"]
 - !private ["Ps8Hashable", "Mensaje"]
+- !private ["Ps8Hashable", "MensajeCorrectoPreg"]
 - !private ["Ps8Hashable", "MensajeErrorPreg"]
 - !private ["Ps8Hashable", "NSMutableDictionary"]
 - !private ["Ps8Hashable", "String"]
@@ -355,6 +362,7 @@ depends-member:
 - !private ["PSo8NSCoding", "LoadDictionary"]
 - !private ["PSo8NSCoding", "LoadQuestion"]
 - !private ["PSo8NSCoding", "Mensaje"]
+- !private ["PSo8NSCoding", "MensajeCorrectoPreg"]
 - !private ["PSo8NSCoding", "MensajeErrorPreg"]
 - !private ["PSo8NSCoding", "NSMutableDictionary"]
 - !private ["PSo8NSCoding", "String"]
@@ -403,6 +411,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "LoadDictionary"]
 - !private ["PSo26NSExtensionRequestHandling", "LoadQuestion"]
 - !private ["PSo26NSExtensionRequestHandling", "Mensaje"]
+- !private ["PSo26NSExtensionRequestHandling", "MensajeCorrectoPreg"]
 - !private ["PSo26NSExtensionRequestHandling", "MensajeErrorPreg"]
 - !private ["PSo26NSExtensionRequestHandling", "NSMutableDictionary"]
 - !private ["PSo26NSExtensionRequestHandling", "String"]
@@ -455,6 +464,7 @@ depends-member:
 - ["CSo8NSObject", "LoadDictionary"]
 - ["CSo8NSObject", "LoadQuestion"]
 - ["CSo8NSObject", "Mensaje"]
+- ["CSo8NSObject", "MensajeCorrectoPreg"]
 - ["CSo8NSObject", "MensajeErrorPreg"]
 - ["CSo8NSObject", "NSArray"]
 - ["CSo8NSObject", "NSDictionary"]
@@ -502,6 +512,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "LoadDictionary"]
 - !private ["PSo16NSObjectProtocol", "LoadQuestion"]
 - !private ["PSo16NSObjectProtocol", "Mensaje"]
+- !private ["PSo16NSObjectProtocol", "MensajeCorrectoPreg"]
 - !private ["PSo16NSObjectProtocol", "MensajeErrorPreg"]
 - !private ["PSo16NSObjectProtocol", "NSMutableDictionary"]
 - !private ["PSo16NSObjectProtocol", "String"]
@@ -577,6 +588,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "LoadDictionary"]
 - !private ["PSo21UIAppearanceContainer", "LoadQuestion"]
 - !private ["PSo21UIAppearanceContainer", "Mensaje"]
+- !private ["PSo21UIAppearanceContainer", "MensajeCorrectoPreg"]
 - !private ["PSo21UIAppearanceContainer", "MensajeErrorPreg"]
 - !private ["PSo21UIAppearanceContainer", "NSMutableDictionary"]
 - !private ["PSo21UIAppearanceContainer", "String"]
@@ -615,6 +627,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "LoadDictionary"]
 - !private ["PSo18UIContentContainer", "LoadQuestion"]
 - !private ["PSo18UIContentContainer", "Mensaje"]
+- !private ["PSo18UIContentContainer", "MensajeCorrectoPreg"]
 - !private ["PSo18UIContentContainer", "MensajeErrorPreg"]
 - !private ["PSo18UIContentContainer", "NSMutableDictionary"]
 - !private ["PSo18UIContentContainer", "String"]
@@ -658,6 +671,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "LoadDictionary"]
 - !private ["PSo18UIFocusEnvironment", "LoadQuestion"]
 - !private ["PSo18UIFocusEnvironment", "Mensaje"]
+- !private ["PSo18UIFocusEnvironment", "MensajeCorrectoPreg"]
 - !private ["PSo18UIFocusEnvironment", "MensajeErrorPreg"]
 - !private ["PSo18UIFocusEnvironment", "NSMutableDictionary"]
 - !private ["PSo18UIFocusEnvironment", "String"]
@@ -700,6 +714,7 @@ depends-member:
 - ["CSo11UIResponder", "LoadDictionary"]
 - ["CSo11UIResponder", "LoadQuestion"]
 - ["CSo11UIResponder", "Mensaje"]
+- ["CSo11UIResponder", "MensajeCorrectoPreg"]
 - ["CSo11UIResponder", "MensajeErrorPreg"]
 - ["CSo11UIResponder", "NSArray"]
 - ["CSo11UIResponder", "NSDictionary"]
@@ -741,6 +756,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "LoadDictionary"]
 - !private ["PSo30UIResponderStandardEditActions", "LoadQuestion"]
 - !private ["PSo30UIResponderStandardEditActions", "Mensaje"]
+- !private ["PSo30UIResponderStandardEditActions", "MensajeCorrectoPreg"]
 - !private ["PSo30UIResponderStandardEditActions", "MensajeErrorPreg"]
 - !private ["PSo30UIResponderStandardEditActions", "NSMutableDictionary"]
 - !private ["PSo30UIResponderStandardEditActions", "String"]
@@ -777,6 +793,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "LoadDictionary"]
 - !private ["PSo16UIStateRestoring", "LoadQuestion"]
 - !private ["PSo16UIStateRestoring", "Mensaje"]
+- !private ["PSo16UIStateRestoring", "MensajeCorrectoPreg"]
 - !private ["PSo16UIStateRestoring", "MensajeErrorPreg"]
 - !private ["PSo16UIStateRestoring", "NSMutableDictionary"]
 - !private ["PSo16UIStateRestoring", "String"]
@@ -810,6 +827,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "LoadDictionary"]
 - !private ["PSo18UITraitEnvironment", "LoadQuestion"]
 - !private ["PSo18UITraitEnvironment", "Mensaje"]
+- !private ["PSo18UITraitEnvironment", "MensajeCorrectoPreg"]
 - !private ["PSo18UITraitEnvironment", "MensajeErrorPreg"]
 - !private ["PSo18UITraitEnvironment", "NSMutableDictionary"]
 - !private ["PSo18UITraitEnvironment", "String"]
@@ -850,6 +868,7 @@ depends-member:
 - ["CSo16UIViewController", "LoadDictionary"]
 - ["CSo16UIViewController", "LoadQuestion"]
 - ["CSo16UIViewController", "Mensaje"]
+- ["CSo16UIViewController", "MensajeCorrectoPreg"]
 - ["CSo16UIViewController", "MensajeErrorPreg"]
 - ["CSo16UIViewController", "NSArray"]
 - ["CSo16UIViewController", "NSDictionary"]
@@ -890,6 +909,7 @@ depends-member:
 - ["C9DeriLearn22ViewControllerPregunta", "LoadDictionary"]
 - ["C9DeriLearn22ViewControllerPregunta", "LoadQuestion"]
 - ["C9DeriLearn22ViewControllerPregunta", "Mensaje"]
+- ["C9DeriLearn22ViewControllerPregunta", "MensajeCorrectoPreg"]
 - ["C9DeriLearn22ViewControllerPregunta", "MensajeErrorPreg"]
 - ["C9DeriLearn22ViewControllerPregunta", "NSArray"]
 - ["C9DeriLearn22ViewControllerPregunta", "NSDictionary"]
@@ -940,6 +960,7 @@ depends-member:
 - !private ["Ps9_Hashable", "LoadDictionary"]
 - !private ["Ps9_Hashable", "LoadQuestion"]
 - !private ["Ps9_Hashable", "Mensaje"]
+- !private ["Ps9_Hashable", "MensajeCorrectoPreg"]
 - !private ["Ps9_Hashable", "MensajeErrorPreg"]
 - !private ["Ps9_Hashable", "NSMutableDictionary"]
 - !private ["Ps9_Hashable", "String"]
@@ -1097,4 +1118,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "221bc21aeb147833b030c3b7b16adf68"
+interface-hash: "4ee867f79366ddbaa4b4c8c523b72f51"

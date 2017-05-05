@@ -72,52 +72,52 @@
 			<key>Pregunta</key>
 			<string>f(x) = 9x^5 + 12x^3 + 10x</string>
 			<key>Correcta</key>
-			<string>f&apos;(x) = 45x^4 + 36x^2 + 10</string>
+			<string>f&apos;(x)=45x^4+36x^2+10</string>
 			<key>Respuestas</key>
 			<array>
-				<string>f&apos;(x) = 9x^5 + 36x^3 + 10</string>
-				<string>f&apos;(x) = 45^5 + 36x^2 + 10x</string>
-				<string>f&apos;(x) = 45x^4 + 36x^2 + 10</string>
-				<string>f&apos;(x) = 54x^4 + 36x^2 + 10x</string>
+				<string>f&apos;(x)=9x^5+36x^3+10</string>
+				<string>f&apos;(x)=45^5+36x^2+10x</string>
+				<string>f&apos;(x)=45x^4+36x^2+10</string>
+				<string>f&apos;(x)=54x^4+36x^2+10x</string>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>f(x) = 9x^-2 + 6x^-4 - 2x^1/2</string>
+			<string>f(x)=9x^(-2)+6x^(-4)-2x^1/2</string>
 			<key>Correcta</key>
-			<string>f&apos;(x) = -(18/x^3) - (24/x^5) - (1/x^1/2)</string>
+			<string>f&apos;(x) = -(18/x^3) - (24/x^5) -(1/x^1/2)</string>
 			<key>Respuestas</key>
 			<array>
-				<string>f&apos;(x) = (18/x^-3) + (24/x^-5) - (1/x^1/2)</string>
-				<string>f&apos;(x) = -(18/x^3) - (24/x^5) - (1/x^1/2)</string>
-				<string>f&apos;(x) = -(18/x^3) - (24/x^5) - (2/x^1/2)</string>
-				<string>f&apos;(x) = -(18/x^2) - (24/x^4) - (1/x^1/2)</string>
+				<string>f&apos;(x)=(18/x^-3)+(24/x^-5)-(1/x^1/2)</string>
+				<string>f&apos;(x)=-(18/x^3)-(24/x^5)-(1/x^1/2)</string>
+				<string>f&apos;(x)=-(18/x^3)-(24/x^5)-(2/x^1/2)</string>
+				<string>f&apos;(x)=-(18/x^2)-(24/x^4)-(1/x^1/2)</string>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>f(x) = 6x^3 + 2x^2 - 6x + 1/x^1/5</string>
+			<string>f(x)=6x^(3)+2x^(2)-6x+1/x^1/5</string>
 			<key>Correcta</key>
-			<string>f&apos;(x) = 18x^2 + 4x - 6 - (1/(5x^1/5))</string>
+			<string>f&apos;(x)=18x^(2)+4x-6-(1/(5x^1/5))</string>
 			<key>Respuestas</key>
 			<array>
-				<string>f&apos;(x) = 18x^2 + 4x - 6 - (1/(5x^1/5))</string>
-				<string>f&apos;(x) = 18x^2 + 4x - 6 - (1/(5x^-1/5))</string>
-				<string>f&apos;(x) = 18x^3 + 4x^2 - 6 - (1/(5x^1/5))</string>
-				<string>f&apos;(x) = 18x^2 + 4x - 6 - (1/(5x^1/5))</string>
+				<string>f&apos;(x)=18x^(2)+4x-6-(1/(5x^1/5))</string>
+				<string>f&apos;(x)=18x^(2)+4x-6-(1/(5x^-1/5))</string>
+				<string>f&apos;(x)=18x^(3)+4x^(2)-6-(1/(5x^1/5))</string>
+				<string>f&apos;(x)=18x^(2)+4x-(1/(5x^1/5))</string>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
 			<string>f(x) = 5x^4 - 2x^3 + 6x^2 + x + 1</string>
 			<key>Correcta</key>
-			<string>f&apos;(x) = 20x^3 - 6x^2 + 12x + 1 </string>
+			<string>f&apos;(x)=20x^(3)-6x^(2)+12x+1 </string>
 			<key>Respuestas</key>
 			<array>
-				<string>f&apos;(x) = 20x^3 - 6x^2 + 12x</string>
-				<string>f&apos;(x) = 20x^3 + 6x^2 + 12x + x </string>
-				<string>f&apos;(x) = 20x^3 - 6x^2 + 12x + 1 </string>
-				<string>f&apos;(x) = 20x^3 - 6x^2 + 12x + x + 1</string>
+				<string>f&apos;(x)=20x^(3)-6x^(2)+12x</string>
+				<string>f&apos;(x)=20x^(3)+6x^(2)+12x+x </string>
+				<string>f&apos;(x)=20x^(3)-6x^(2)+12x+1 </string>
+				<string>f&apos;(x)=20x^(3)-6x^(2)+12x+x+1</string>
 			</array>
 		</dict>
 		<dict>

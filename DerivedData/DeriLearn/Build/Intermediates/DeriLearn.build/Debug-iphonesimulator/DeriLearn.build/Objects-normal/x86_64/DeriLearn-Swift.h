@@ -184,6 +184,8 @@ SWIFT_CLASS("_TtC9DeriLearn14ViewController")
 - (IBAction)Anterior:(UIButton * _Nonnull)sender;
 - (IBAction)Siguiente:(UIButton * _Nonnull)sender;
 - (IBAction)cambiarEjemplo:(UIBarButtonItem * _Nonnull)sender;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -195,6 +197,8 @@ SWIFT_CLASS("_TtC9DeriLearn24ViewControllerCatAprende")
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -205,6 +209,8 @@ SWIFT_CLASS("_TtC9DeriLearn29ViewControllerCatAprendeTrigo")
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -220,6 +226,8 @@ SWIFT_CLASS("_TtC9DeriLearn24ViewControllerFormulario")
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (UIView * _Nullable)viewForZoomingInScrollView:(UIScrollView * _Nonnull)scrollView SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -234,12 +242,15 @@ SWIFT_CLASS("_TtC9DeriLearn25ViewControllerFormulario2")
 - (UIImage * _Nonnull)resizeImageWithImage:(UIImage * _Nonnull)image SWIFT_WARN_UNUSED_RESULT;
 - (void)didReceiveMemoryWarning;
 - (UIView * _Nullable)viewForZoomingInScrollView:(UIScrollView * _Nonnull)scrollView SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class NSArray;
 @class NSDictionary;
+@class NSMutableDictionary;
 
 SWIFT_CLASS("_TtC9DeriLearn22ViewControllerPregunta")
 @interface ViewControllerPregunta : UIViewController
@@ -250,8 +261,11 @@ SWIFT_CLASS("_TtC9DeriLearn22ViewControllerPregunta")
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified btnPregDos;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified btnPregTres;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified btnPregCuatro;
+@property (nonatomic, copy) NSString * _Null_unspecified filePath;
+@property (nonatomic, strong) NSMutableDictionary * _Null_unspecified dicResp;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (NSString * _Nonnull)dataFilePath SWIFT_WARN_UNUSED_RESULT;
 - (void)LoadDictionary;
 - (void)LoadQuestion;
 - (IBAction)btnAction:(UIButton * _Nonnull)sender;
@@ -261,6 +275,8 @@ SWIFT_CLASS("_TtC9DeriLearn22ViewControllerPregunta")
 - (void)quickSaveCorr;
 - (void)quickSaveInc;
 - (void)GoBack;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -276,8 +292,13 @@ SWIFT_CLASS("_TtC9DeriLearn27ViewControllerRetroPractica")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified incExp;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified corTri;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified incTri;
+@property (nonatomic, copy) NSString * _Null_unspecified filePath;
+@property (nonatomic, strong) NSMutableDictionary * _Null_unspecified dicResp;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+- (NSString * _Nonnull)dataFilePath SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -289,6 +310,8 @@ SWIFT_CLASS("_TtC9DeriLearn21ViewControllerSelPreg")
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

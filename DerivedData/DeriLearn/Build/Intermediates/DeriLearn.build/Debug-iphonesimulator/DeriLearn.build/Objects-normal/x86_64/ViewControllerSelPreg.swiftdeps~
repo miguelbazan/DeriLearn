@@ -9,14 +9,19 @@ provides-dynamic-lookup:
 - "arrArrDictionary"
 - "didReceiveMemoryWarning"
 - "prepare"
+- "shouldAutorotate"
+- "supportedInterfaceOrientations"
 - "viewDidLoad"
 depends-top-level:
 - !private "=="
 - "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
 - !private "Bundle"
 - "CastingPrecedence"
 - "NSArray"
 - !private "StringLiteralType"
+- "UIInterfaceOrientationMask"
 - "UIStoryboardSegue"
 - "UIViewController"
 - !private "ViewControllerPregunta"
@@ -25,6 +30,7 @@ depends-member:
 - !private ["Ps9AnyObject", "ArrDic"]
 - !private ["Ps9AnyObject", "Bundle"]
 - !private ["Ps9AnyObject", "NSArray"]
+- !private ["Ps9AnyObject", "UIInterfaceOrientationMask"]
 - !private ["Ps9AnyObject", "arrArrDictionary"]
 - !private ["Ps9AnyObject", "destination"]
 - !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
@@ -42,6 +48,7 @@ depends-member:
 - !private ["Ps7CVarArg", "ArrDic"]
 - !private ["Ps7CVarArg", "Bundle"]
 - !private ["Ps7CVarArg", "NSArray"]
+- !private ["Ps7CVarArg", "UIInterfaceOrientationMask"]
 - !private ["Ps7CVarArg", "arrArrDictionary"]
 - !private ["Ps7CVarArg", "destination"]
 - !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
@@ -57,6 +64,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "ArrDic"]
 - !private ["Ps28CustomDebugStringConvertible", "Bundle"]
 - !private ["Ps28CustomDebugStringConvertible", "NSArray"]
+- !private ["Ps28CustomDebugStringConvertible", "UIInterfaceOrientationMask"]
 - !private ["Ps28CustomDebugStringConvertible", "arrArrDictionary"]
 - !private ["Ps28CustomDebugStringConvertible", "destination"]
 - !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
@@ -76,6 +84,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "ArrDic"]
 - !private ["Ps23CustomStringConvertible", "Bundle"]
 - !private ["Ps23CustomStringConvertible", "NSArray"]
+- !private ["Ps23CustomStringConvertible", "UIInterfaceOrientationMask"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "arrArrDictionary"]
 - !private ["Ps23CustomStringConvertible", "destination"]
@@ -91,6 +100,7 @@ depends-member:
 - !private ["Ps9Equatable", "ArrDic"]
 - !private ["Ps9Equatable", "Bundle"]
 - !private ["Ps9Equatable", "NSArray"]
+- !private ["Ps9Equatable", "UIInterfaceOrientationMask"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "arrArrDictionary"]
 - !private ["Ps9Equatable", "destination"]
@@ -100,10 +110,12 @@ depends-member:
 - !private ["Ps9Equatable", "main"]
 - !private ["Ps9Equatable", "numArray"]
 - !private ["Ps9Equatable", "path"]
+- !private ["Ps9Equatable", "portrait"]
 - !private ["Ps9Equatable", "subscript"]
 - !private ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
 - !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "portrait"]
 - !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
@@ -112,6 +124,7 @@ depends-member:
 - !private ["Ps8Hashable", "ArrDic"]
 - !private ["Ps8Hashable", "Bundle"]
 - !private ["Ps8Hashable", "NSArray"]
+- !private ["Ps8Hashable", "UIInterfaceOrientationMask"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "arrArrDictionary"]
 - !private ["Ps8Hashable", "destination"]
@@ -132,6 +145,7 @@ depends-member:
 - !private ["PSo8NSCoding", "ArrDic"]
 - !private ["PSo8NSCoding", "Bundle"]
 - !private ["PSo8NSCoding", "NSArray"]
+- !private ["PSo8NSCoding", "UIInterfaceOrientationMask"]
 - !private ["PSo8NSCoding", "arrArrDictionary"]
 - !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - !private ["PSo8NSCoding", "init"]
@@ -144,6 +158,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "ArrDic"]
 - !private ["PSo26NSExtensionRequestHandling", "Bundle"]
 - !private ["PSo26NSExtensionRequestHandling", "NSArray"]
+- !private ["PSo26NSExtensionRequestHandling", "UIInterfaceOrientationMask"]
 - !private ["PSo26NSExtensionRequestHandling", "arrArrDictionary"]
 - !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
@@ -155,8 +170,10 @@ depends-member:
 - !private ["PSo16NSMutableCopying", "init"]
 - !private ["PSo16NSMutableCopying", "subscript"]
 - !private ["CSo8NSObject", "ArrDic"]
+- ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "Bundle"]
 - ["CSo8NSObject", "NSArray"]
+- ["CSo8NSObject", "UIInterfaceOrientationMask"]
 - ["CSo8NSObject", "UIStoryboardSegue"]
 - !private ["CSo8NSObject", "ViewControllerPregunta"]
 - ["CSo8NSObject", "arrArrDictionary"]
@@ -168,11 +185,14 @@ depends-member:
 - !private ["CSo8NSObject", "numArray"]
 - !private ["CSo8NSObject", "path"]
 - ["CSo8NSObject", "prepare"]
+- ["CSo8NSObject", "shouldAutorotate"]
 - !private ["CSo8NSObject", "subscript"]
+- ["CSo8NSObject", "supportedInterfaceOrientations"]
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["PSo16NSObjectProtocol", "ArrDic"]
 - !private ["PSo16NSObjectProtocol", "Bundle"]
 - !private ["PSo16NSObjectProtocol", "NSArray"]
+- !private ["PSo16NSObjectProtocol", "UIInterfaceOrientationMask"]
 - !private ["PSo16NSObjectProtocol", "arrArrDictionary"]
 - !private ["PSo16NSObjectProtocol", "destination"]
 - !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
@@ -187,14 +207,18 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "subscript"]
 - !private ["CSo8NSString", "init"]
+- !private ["Ps9OptionSet", "portrait"]
+- !private ["Ps16RawRepresentable", "portrait"]
 - !private ["Ps8Sequence", "init"]
 - !private ["Ps8Sequence", "subscript"]
+- !private ["Ps10SetAlgebra", "portrait"]
 - !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
 - !private ["PSo21UIAppearanceContainer", "ArrDic"]
 - !private ["PSo21UIAppearanceContainer", "Bundle"]
 - !private ["PSo21UIAppearanceContainer", "NSArray"]
+- !private ["PSo21UIAppearanceContainer", "UIInterfaceOrientationMask"]
 - !private ["PSo21UIAppearanceContainer", "arrArrDictionary"]
 - !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - !private ["PSo21UIAppearanceContainer", "init"]
@@ -204,6 +228,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "ArrDic"]
 - !private ["PSo18UIContentContainer", "Bundle"]
 - !private ["PSo18UIContentContainer", "NSArray"]
+- !private ["PSo18UIContentContainer", "UIInterfaceOrientationMask"]
 - !private ["PSo18UIContentContainer", "arrArrDictionary"]
 - !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - !private ["PSo18UIContentContainer", "init"]
@@ -213,15 +238,19 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "ArrDic"]
 - !private ["PSo18UIFocusEnvironment", "Bundle"]
 - !private ["PSo18UIFocusEnvironment", "NSArray"]
+- !private ["PSo18UIFocusEnvironment", "UIInterfaceOrientationMask"]
 - !private ["PSo18UIFocusEnvironment", "arrArrDictionary"]
 - !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - !private ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "numArray"]
 - !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
+- !private ["VSC26UIInterfaceOrientationMask", "portrait"]
 - !private ["CSo11UIResponder", "ArrDic"]
+- ["CSo11UIResponder", "Bool"]
 - !private ["CSo11UIResponder", "Bundle"]
 - ["CSo11UIResponder", "NSArray"]
+- ["CSo11UIResponder", "UIInterfaceOrientationMask"]
 - ["CSo11UIResponder", "UIStoryboardSegue"]
 - !private ["CSo11UIResponder", "ViewControllerPregunta"]
 - ["CSo11UIResponder", "arrArrDictionary"]
@@ -229,10 +258,13 @@ depends-member:
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "numArray"]
 - ["CSo11UIResponder", "prepare"]
+- ["CSo11UIResponder", "shouldAutorotate"]
+- ["CSo11UIResponder", "supportedInterfaceOrientations"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["PSo30UIResponderStandardEditActions", "ArrDic"]
 - !private ["PSo30UIResponderStandardEditActions", "Bundle"]
 - !private ["PSo30UIResponderStandardEditActions", "NSArray"]
+- !private ["PSo30UIResponderStandardEditActions", "UIInterfaceOrientationMask"]
 - !private ["PSo30UIResponderStandardEditActions", "arrArrDictionary"]
 - !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
@@ -242,6 +274,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "ArrDic"]
 - !private ["PSo16UIStateRestoring", "Bundle"]
 - !private ["PSo16UIStateRestoring", "NSArray"]
+- !private ["PSo16UIStateRestoring", "UIInterfaceOrientationMask"]
 - !private ["PSo16UIStateRestoring", "arrArrDictionary"]
 - !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - !private ["PSo16UIStateRestoring", "init"]
@@ -253,6 +286,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "ArrDic"]
 - !private ["PSo18UITraitEnvironment", "Bundle"]
 - !private ["PSo18UITraitEnvironment", "NSArray"]
+- !private ["PSo18UITraitEnvironment", "UIInterfaceOrientationMask"]
 - !private ["PSo18UITraitEnvironment", "arrArrDictionary"]
 - !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - !private ["PSo18UITraitEnvironment", "init"]
@@ -260,8 +294,10 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo16UIViewController", "ArrDic"]
+- ["CSo16UIViewController", "Bool"]
 - !private ["CSo16UIViewController", "Bundle"]
 - ["CSo16UIViewController", "NSArray"]
+- ["CSo16UIViewController", "UIInterfaceOrientationMask"]
 - ["CSo16UIViewController", "UIStoryboardSegue"]
 - !private ["CSo16UIViewController", "ViewControllerPregunta"]
 - ["CSo16UIViewController", "arrArrDictionary"]
@@ -269,12 +305,16 @@ depends-member:
 - ["CSo16UIViewController", "init"]
 - !private ["CSo16UIViewController", "numArray"]
 - ["CSo16UIViewController", "prepare"]
+- ["CSo16UIViewController", "shouldAutorotate"]
+- ["CSo16UIViewController", "supportedInterfaceOrientations"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
 - !private ["C9DeriLearn22ViewControllerPregunta", "ArrDic"]
 - !private ["C9DeriLearn22ViewControllerPregunta", "numArray"]
+- ["C9DeriLearn21ViewControllerSelPreg", "Bool"]
 - !private ["C9DeriLearn21ViewControllerSelPreg", "Bundle"]
 - ["C9DeriLearn21ViewControllerSelPreg", "NSArray"]
+- ["C9DeriLearn21ViewControllerSelPreg", "UIInterfaceOrientationMask"]
 - ["C9DeriLearn21ViewControllerSelPreg", "UIStoryboardSegue"]
 - !private ["C9DeriLearn21ViewControllerSelPreg", "ViewControllerPregunta"]
 - ["C9DeriLearn21ViewControllerSelPreg", "arrArrDictionary"]
@@ -282,6 +322,8 @@ depends-member:
 - ["C9DeriLearn21ViewControllerSelPreg", "didReceiveMemoryWarning"]
 - ["C9DeriLearn21ViewControllerSelPreg", "init"]
 - ["C9DeriLearn21ViewControllerSelPreg", "prepare"]
+- ["C9DeriLearn21ViewControllerSelPreg", "shouldAutorotate"]
+- ["C9DeriLearn21ViewControllerSelPreg", "supportedInterfaceOrientations"]
 - ["C9DeriLearn21ViewControllerSelPreg", "viewDidLoad"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
@@ -293,6 +335,7 @@ depends-member:
 - !private ["Ps9_Hashable", "ArrDic"]
 - !private ["Ps9_Hashable", "Bundle"]
 - !private ["Ps9_Hashable", "NSArray"]
+- !private ["Ps9_Hashable", "UIInterfaceOrientationMask"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps9_Hashable", "arrArrDictionary"]
 - !private ["Ps9_Hashable", "destination"]
@@ -336,13 +379,17 @@ depends-nominal:
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
+- !private "Ps9OptionSet"
+- !private "Ps16RawRepresentable"
 - !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
 - !private "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
 - "PSo21UIAppearanceContainer"
 - "PSo18UIContentContainer"
 - "PSo18UIFocusEnvironment"
+- !private "VSC26UIInterfaceOrientationMask"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
 - "PSo16UIStateRestoring"
@@ -380,4 +427,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "7352a9a58dab6beca36c40759de18767"
+interface-hash: "bb425b30e78fb7a912081d0e563b906c"

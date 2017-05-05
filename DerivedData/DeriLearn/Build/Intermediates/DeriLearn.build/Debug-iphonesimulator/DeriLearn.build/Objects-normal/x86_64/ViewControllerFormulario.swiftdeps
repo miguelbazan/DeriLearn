@@ -10,15 +10,19 @@ provides-dynamic-lookup:
 - "imageView"
 - "imagen"
 - "scView"
+- "shouldAutorotate"
+- "supportedInterfaceOrientations"
 - "viewDidLoad"
 - "viewForZooming"
 depends-top-level:
 - "AssignmentPrecedence"
+- "Bool"
 - !private "BooleanLiteralType"
 - !private "CGPoint"
 - "StringLiteralType"
 - "UIImage"
 - "UIImageView"
+- "UIInterfaceOrientationMask"
 - "UIScrollView"
 - "UIScrollViewDelegate"
 - "UIView"
@@ -29,6 +33,7 @@ depends-member:
 - !private ["Ps9AnyObject", "CGPoint"]
 - ["Ps9AnyObject", "UIImage"]
 - ["Ps9AnyObject", "UIImageView"]
+- !private ["Ps9AnyObject", "UIInterfaceOrientationMask"]
 - !private ["Ps9AnyObject", "addSubview"]
 - !private ["Ps9AnyObject", "contentSize"]
 - !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
@@ -62,6 +67,7 @@ depends-member:
 - !private ["Ps7CVarArg", "CGPoint"]
 - ["Ps7CVarArg", "UIImage"]
 - ["Ps7CVarArg", "UIImageView"]
+- !private ["Ps7CVarArg", "UIInterfaceOrientationMask"]
 - !private ["Ps7CVarArg", "addSubview"]
 - !private ["Ps7CVarArg", "contentSize"]
 - !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
@@ -91,6 +97,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
 - ["Ps28CustomDebugStringConvertible", "UIImage"]
 - ["Ps28CustomDebugStringConvertible", "UIImageView"]
+- !private ["Ps28CustomDebugStringConvertible", "UIInterfaceOrientationMask"]
 - !private ["Ps28CustomDebugStringConvertible", "addSubview"]
 - !private ["Ps28CustomDebugStringConvertible", "contentSize"]
 - !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
@@ -121,6 +128,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "CGPoint"]
 - ["Ps23CustomStringConvertible", "UIImage"]
 - ["Ps23CustomStringConvertible", "UIImageView"]
+- !private ["Ps23CustomStringConvertible", "UIInterfaceOrientationMask"]
 - !private ["Ps23CustomStringConvertible", "addSubview"]
 - !private ["Ps23CustomStringConvertible", "contentSize"]
 - !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
@@ -149,12 +157,14 @@ depends-member:
 - !private ["Ps9Equatable", "CGPoint"]
 - ["Ps9Equatable", "UIImage"]
 - ["Ps9Equatable", "UIImageView"]
+- !private ["Ps9Equatable", "UIInterfaceOrientationMask"]
 - !private ["Ps9Equatable", "addSubview"]
 - !private ["Ps9Equatable", "contentSize"]
 - !private ["Ps9Equatable", "didReceiveMemoryWarning"]
 - !private ["Ps9Equatable", "imageView"]
 - !private ["Ps9Equatable", "imagen"]
 - ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "portrait"]
 - !private ["Ps9Equatable", "scView"]
 - ["Ps9Equatable", "scrollViewDidEndDecelerating"]
 - ["Ps9Equatable", "scrollViewDidEndDragging"]
@@ -174,12 +184,14 @@ depends-member:
 - ["Ps9Equatable", "viewForZooming"]
 - ["Ps9Equatable", "viewForZoomingInScrollView"]
 - ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "portrait"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Ps8Hashable", "CGPoint"]
 - ["Ps8Hashable", "UIImage"]
 - ["Ps8Hashable", "UIImageView"]
+- !private ["Ps8Hashable", "UIInterfaceOrientationMask"]
 - !private ["Ps8Hashable", "addSubview"]
 - !private ["Ps8Hashable", "contentSize"]
 - !private ["Ps8Hashable", "didReceiveMemoryWarning"]
@@ -210,6 +222,7 @@ depends-member:
 - !private ["PSo8NSCoding", "CGPoint"]
 - ["PSo8NSCoding", "UIImage"]
 - ["PSo8NSCoding", "UIImageView"]
+- !private ["PSo8NSCoding", "UIInterfaceOrientationMask"]
 - !private ["PSo8NSCoding", "addSubview"]
 - !private ["PSo8NSCoding", "contentSize"]
 - !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
@@ -239,6 +252,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "CGPoint"]
 - ["PSo26NSExtensionRequestHandling", "UIImage"]
 - ["PSo26NSExtensionRequestHandling", "UIImageView"]
+- !private ["PSo26NSExtensionRequestHandling", "UIInterfaceOrientationMask"]
 - !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - !private ["PSo26NSExtensionRequestHandling", "imageView"]
 - !private ["PSo26NSExtensionRequestHandling", "imagen"]
@@ -261,9 +275,11 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "viewForZoomingInScrollView"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "CGPoint"]
 - ["CSo8NSObject", "UIImage"]
 - ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UIInterfaceOrientationMask"]
 - ["CSo8NSObject", "UIScrollView"]
 - ["CSo8NSObject", "UIView"]
 - !private ["CSo8NSObject", "addSubview"]
@@ -286,13 +302,16 @@ depends-member:
 - ["CSo8NSObject", "scrollViewWillBeginZooming"]
 - ["CSo8NSObject", "scrollViewWillEndDragging"]
 - !private ["CSo8NSObject", "setContentOffset"]
+- ["CSo8NSObject", "shouldAutorotate"]
 - !private ["CSo8NSObject", "size"]
+- ["CSo8NSObject", "supportedInterfaceOrientations"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["CSo8NSObject", "viewForZooming"]
 - ["CSo8NSObject", "viewForZoomingInScrollView"]
 - !private ["PSo16NSObjectProtocol", "CGPoint"]
 - ["PSo16NSObjectProtocol", "UIImage"]
 - ["PSo16NSObjectProtocol", "UIImageView"]
+- !private ["PSo16NSObjectProtocol", "UIInterfaceOrientationMask"]
 - !private ["PSo16NSObjectProtocol", "addSubview"]
 - !private ["PSo16NSObjectProtocol", "contentSize"]
 - !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
@@ -321,6 +340,9 @@ depends-member:
 - ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "size"]
 - ["CSo8NSString", "init"]
+- !private ["Ps9OptionSet", "portrait"]
+- !private ["Ps16RawRepresentable", "portrait"]
+- !private ["Ps10SetAlgebra", "portrait"]
 - ["SS", "init"]
 - ["Ps16TextOutputStream", "init"]
 - ["Ps20TextOutputStreamable", "init"]
@@ -336,6 +358,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "CGPoint"]
 - ["PSo21UIAppearanceContainer", "UIImage"]
 - ["PSo21UIAppearanceContainer", "UIImageView"]
+- !private ["PSo21UIAppearanceContainer", "UIInterfaceOrientationMask"]
 - !private ["PSo21UIAppearanceContainer", "addSubview"]
 - !private ["PSo21UIAppearanceContainer", "contentSize"]
 - !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
@@ -363,6 +386,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "CGPoint"]
 - ["PSo18UIContentContainer", "UIImage"]
 - ["PSo18UIContentContainer", "UIImageView"]
+- !private ["PSo18UIContentContainer", "UIInterfaceOrientationMask"]
 - !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - !private ["PSo18UIContentContainer", "imageView"]
 - !private ["PSo18UIContentContainer", "imagen"]
@@ -395,6 +419,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "CGPoint"]
 - ["PSo18UIFocusEnvironment", "UIImage"]
 - ["PSo18UIFocusEnvironment", "UIImageView"]
+- !private ["PSo18UIFocusEnvironment", "UIInterfaceOrientationMask"]
 - !private ["PSo18UIFocusEnvironment", "addSubview"]
 - !private ["PSo18UIFocusEnvironment", "contentSize"]
 - !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
@@ -426,9 +451,12 @@ depends-member:
 - ["CSo7UIImage", "init"]
 - !private ["CSo7UIImage", "size"]
 - ["CSo11UIImageView", "init"]
+- !private ["VSC26UIInterfaceOrientationMask", "portrait"]
+- ["CSo11UIResponder", "Bool"]
 - !private ["CSo11UIResponder", "CGPoint"]
 - ["CSo11UIResponder", "UIImage"]
 - ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UIInterfaceOrientationMask"]
 - ["CSo11UIResponder", "UIScrollView"]
 - ["CSo11UIResponder", "UIView"]
 - !private ["CSo11UIResponder", "addSubview"]
@@ -451,12 +479,15 @@ depends-member:
 - ["CSo11UIResponder", "scrollViewWillBeginZooming"]
 - ["CSo11UIResponder", "scrollViewWillEndDragging"]
 - !private ["CSo11UIResponder", "setContentOffset"]
+- ["CSo11UIResponder", "shouldAutorotate"]
+- ["CSo11UIResponder", "supportedInterfaceOrientations"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - ["CSo11UIResponder", "viewForZooming"]
 - ["CSo11UIResponder", "viewForZoomingInScrollView"]
 - !private ["PSo30UIResponderStandardEditActions", "CGPoint"]
 - ["PSo30UIResponderStandardEditActions", "UIImage"]
 - ["PSo30UIResponderStandardEditActions", "UIImageView"]
+- !private ["PSo30UIResponderStandardEditActions", "UIInterfaceOrientationMask"]
 - !private ["PSo30UIResponderStandardEditActions", "addSubview"]
 - !private ["PSo30UIResponderStandardEditActions", "contentSize"]
 - !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
@@ -487,6 +518,7 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "CGPoint"]
 - ["PSo20UIScrollViewDelegate", "UIImage"]
 - ["PSo20UIScrollViewDelegate", "UIImageView"]
+- !private ["PSo20UIScrollViewDelegate", "UIInterfaceOrientationMask"]
 - !private ["PSo20UIScrollViewDelegate", "imageView"]
 - !private ["PSo20UIScrollViewDelegate", "imagen"]
 - !private ["PSo20UIScrollViewDelegate", "scView"]
@@ -508,6 +540,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "CGPoint"]
 - ["PSo16UIStateRestoring", "UIImage"]
 - ["PSo16UIStateRestoring", "UIImageView"]
+- !private ["PSo16UIStateRestoring", "UIInterfaceOrientationMask"]
 - !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - !private ["PSo16UIStateRestoring", "imageView"]
 - !private ["PSo16UIStateRestoring", "imagen"]
@@ -532,6 +565,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "CGPoint"]
 - ["PSo18UITraitEnvironment", "UIImage"]
 - ["PSo18UITraitEnvironment", "UIImageView"]
+- !private ["PSo18UITraitEnvironment", "UIInterfaceOrientationMask"]
 - !private ["PSo18UITraitEnvironment", "addSubview"]
 - !private ["PSo18UITraitEnvironment", "contentSize"]
 - !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
@@ -560,9 +594,11 @@ depends-member:
 - !private ["CSo6UIView", "contentSize"]
 - ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "setContentOffset"]
+- ["CSo16UIViewController", "Bool"]
 - !private ["CSo16UIViewController", "CGPoint"]
 - ["CSo16UIViewController", "UIImage"]
 - ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "UIInterfaceOrientationMask"]
 - ["CSo16UIViewController", "UIScrollView"]
 - ["CSo16UIViewController", "UIView"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
@@ -582,13 +618,17 @@ depends-member:
 - ["CSo16UIViewController", "scrollViewWillBeginDragging"]
 - ["CSo16UIViewController", "scrollViewWillBeginZooming"]
 - ["CSo16UIViewController", "scrollViewWillEndDragging"]
+- ["CSo16UIViewController", "shouldAutorotate"]
+- ["CSo16UIViewController", "supportedInterfaceOrientations"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", "viewForZooming"]
 - ["CSo16UIViewController", "viewForZoomingInScrollView"]
 - ["CSo16UIViewController", ""]
+- ["C9DeriLearn24ViewControllerFormulario", "Bool"]
 - !private ["C9DeriLearn24ViewControllerFormulario", "CGPoint"]
 - ["C9DeriLearn24ViewControllerFormulario", "UIImage"]
 - ["C9DeriLearn24ViewControllerFormulario", "UIImageView"]
+- ["C9DeriLearn24ViewControllerFormulario", "UIInterfaceOrientationMask"]
 - ["C9DeriLearn24ViewControllerFormulario", "UIScrollView"]
 - ["C9DeriLearn24ViewControllerFormulario", "UIView"]
 - ["C9DeriLearn24ViewControllerFormulario", "deinit"]
@@ -609,6 +649,8 @@ depends-member:
 - ["C9DeriLearn24ViewControllerFormulario", "scrollViewWillBeginDragging"]
 - ["C9DeriLearn24ViewControllerFormulario", "scrollViewWillBeginZooming"]
 - ["C9DeriLearn24ViewControllerFormulario", "scrollViewWillEndDragging"]
+- ["C9DeriLearn24ViewControllerFormulario", "shouldAutorotate"]
+- ["C9DeriLearn24ViewControllerFormulario", "supportedInterfaceOrientations"]
 - ["C9DeriLearn24ViewControllerFormulario", "viewDidLoad"]
 - ["C9DeriLearn24ViewControllerFormulario", "viewForZooming"]
 - ["C9DeriLearn24ViewControllerFormulario", "viewForZoomingInScrollView"]
@@ -627,6 +669,7 @@ depends-member:
 - !private ["Ps9_Hashable", "CGPoint"]
 - ["Ps9_Hashable", "UIImage"]
 - ["Ps9_Hashable", "UIImageView"]
+- !private ["Ps9_Hashable", "UIInterfaceOrientationMask"]
 - !private ["Ps9_Hashable", "addSubview"]
 - !private ["Ps9_Hashable", "contentSize"]
 - !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
@@ -664,6 +707,7 @@ depends-nominal:
 - "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
@@ -678,6 +722,9 @@ depends-nominal:
 - "PSo16NSObjectProtocol"
 - "PSo14NSSecureCoding"
 - "CSo8NSString"
+- !private "Ps9OptionSet"
+- !private "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
 - "SS"
 - "Ps16TextOutputStream"
 - "Ps20TextOutputStreamable"
@@ -691,6 +738,7 @@ depends-nominal:
 - "PSo11UIFocusItem"
 - "CSo7UIImage"
 - "CSo11UIImageView"
+- !private "VSC26UIInterfaceOrientationMask"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
 - !private "CSo12UIScrollView"
@@ -730,4 +778,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "57209ab5fd571985d353725819e3520f"
+interface-hash: "2d4e4e18ac2f38ae0c0dfe803c4d6c61"

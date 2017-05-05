@@ -398,12 +398,12 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="Fst-9Q-Gzq"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="xsL-V2-nha"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.88235294117647056" green="0.86577509198441349" blue="0.86390000470999218" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnAction:" destination="5bD-ju-vFl" eventType="touchUpInside" id="LUU-xM-MvM"/>
+                                    <action selector="btnAction:" destination="5bD-ju-vFl" eventType="touchUpInside" id="bH7-Aj-i7P"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4sX-iJ-7vN">
@@ -413,12 +413,12 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="fRO-kO-ZVO"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="ihM-hD-xPL"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.88235294117647056" green="0.86577509198441349" blue="0.86390000470999218" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnAction:" destination="5bD-ju-vFl" eventType="touchUpInside" id="rjx-tH-NhN"/>
+                                    <action selector="btnAction:" destination="5bD-ju-vFl" eventType="touchUpInside" id="AgJ-f7-nbB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nzn-8f-hdH">
@@ -428,12 +428,12 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="KjS-d8-I06"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="s0C-hk-WAB"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.88235294117647056" green="0.86577509198441349" blue="0.86390000470999218" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnAction:" destination="5bD-ju-vFl" eventType="touchUpInside" id="HVB-1y-CEL"/>
+                                    <action selector="btnAction:" destination="5bD-ju-vFl" eventType="touchUpInside" id="8Ra-lU-7x0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cK-oA-kQ9">
@@ -443,12 +443,12 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="Zoc-rF-eqP"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="wnP-Xy-Y9w"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.88235294117647056" green="0.86577509198441349" blue="0.86390000470999218" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnAction:" destination="5bD-ju-vFl" eventType="touchUpInside" id="5uQ-fD-qQ3"/>
+                                    <action selector="btnAction:" destination="5bD-ju-vFl" eventType="touchUpInside" id="jmp-kI-RJR"/>
                                 </connections>
                             </button>
                         </subviews>

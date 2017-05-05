@@ -19,15 +19,19 @@ class ViewControllerRetroPractica: UIViewController {
     @IBOutlet weak var incExp: UILabel!
     @IBOutlet weak var corTri: UILabel!
     @IBOutlet weak var incTri: UILabel!
+    var filePath : String!
+    var dicResp : NSMutableDictionary!
+    
     override func viewDidLoad() {
         self.title = "Estadísticas"
         super.viewDidLoad()
         
-        let path = Bundle.main.path(forResource:"PregPun", ofType: "plist")
-        //Es un Array que los
-        let DicResp = NSMutableDictionary(contentsOfFile: path!)
-        let arrResp = DicResp?.object(forKey: "Problemas") as! NSMutableArray
-        let arrErro = DicResp?.object(forKey: "Incorrectas") as! NSMutableArray
+        filePath = dataFilePath()
+        
+        
+            dicResp = NSMutableDictionary(contentsOfFile: filePath)
+        let arrResp = dicResp?.object(forKey: "Problemas") as! NSMutableArray
+        let arrErro = dicResp?.object(forKey: "Incorrectas") as! NSMutableArray
         // Do any additional setup after loading the view.
         corPoli.text = String((arrResp.object(at: 0) as? Int)!)
         corTri.text = String((arrResp.object(at: 1) as? Int)!)
@@ -49,6 +53,13 @@ class ViewControllerRetroPractica: UIViewController {
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         
         return UIInterfaceOrientationMask.portrait
+        
+    }
+    
+    func dataFilePath() -> String{
+        let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+        let documentsDirectory = paths[0]
+        return documentsDirectory.appending("/Resp.plist")
         
     }
     

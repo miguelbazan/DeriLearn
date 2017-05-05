@@ -2,4 +2,102 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeriLearn/ViewControllerPregunta.swift"
+            timestampString = "515656096.843131"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "quickSaveInc()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeriLearn.ViewControllerPregunta.quickSaveInc () -&gt; ()"
+                  moduleName = "DeriLearn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/LuisSFU/Desktop/Derilearn/DeriLearn/DeriLearn/ViewControllerPregunta.swift"
+                  timestampString = "515655275.246003"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeriLearn.ViewControllerPregunta.quickSaveInc () -&gt; ()"
+                  moduleName = "DeriLearn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/LuisSFU/Desktop/Derilearn/DeriLearn/DeriLearn/ViewControllerPregunta.swift"
+                  timestampString = "515655275.251817"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "1769">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeriLearn/ViewControllerPregunta.swift"
+            timestampString = "515656096.843131"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "quickSaveCorr()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeriLearn.ViewControllerPregunta.quickSaveCorr () -&gt; ()"
+                  moduleName = "DeriLearn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/LuisSFU/Desktop/Derilearn/DeriLearn/DeriLearn/ViewControllerPregunta.swift"
+                  timestampString = "515655275.266156"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeriLearn.ViewControllerPregunta.quickSaveCorr () -&gt; ()"
+                  moduleName = "DeriLearn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/LuisSFU/Desktop/Derilearn/DeriLearn/DeriLearn/ViewControllerPregunta.swift"
+                  timestampString = "515655275.268666"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "1769">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -1,0 +1,13 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "c76d5983f98c843ee1b145e7fe676bd5"
+build_time: [547278074, 658955000]
+inputs:
+  "/Users/LuisSFU/Desktop/Derilearn/DeriLearn/DeriLearn/ViewControllerFormulario2.swift": [547276504, 0]
+  "/Users/LuisSFU/Desktop/Derilearn/DeriLearn/DeriLearn/ViewControllerRetroPractica.swift": [547277425, 0]
+  "/Users/LuisSFU/Desktop/Derilearn/DeriLearn/DeriLearn/ViewController.swift": [547276504, 0]
+  "/Users/LuisSFU/Desktop/Derilearn/DeriLearn/DeriLearn/AppDelegate.swift": [547061731, 0]
+  "/Users/LuisSFU/Desktop/Derilearn/DeriLearn/DeriLearn/ViewControllerCatAprendeTrigo.swift": [547276504, 0]
+  "/Users/LuisSFU/Desktop/Derilearn/DeriLearn/DeriLearn/ViewControllerPregunta.swift": [547277940, 0]
+  "/Users/LuisSFU/Desktop/Derilearn/DeriLearn/ViewControllerSelPreg.swift": [547276504, 0]
+  "/Users/LuisSFU/Desktop/Derilearn/DeriLearn/DeriLearn/ViewControllerFormulario.swift": [547276504, 0]
+  "/Users/LuisSFU/Desktop/Derilearn/DeriLearn/DeriLearn/ViewControllerCatAprende.swift": [547276504, 0]

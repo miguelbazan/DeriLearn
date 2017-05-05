@@ -26,6 +26,7 @@ class ViewControllerPregunta: UIViewController {
     @IBOutlet weak var btnPregDos: UIButton!
     @IBOutlet weak var btnPregTres: UIButton!
     @IBOutlet weak var btnPregCuatro: UIButton!
+    var dicResp : NSMutableDictionary!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +36,18 @@ class ViewControllerPregunta: UIViewController {
         numDic = 0
         numCorr = 0
         LoadDictionary()
+
+        let filePath = dataFilePath()
+        if FileManager.default.fileExists(atPath: filePath){
+        
+            dicResp = NSMutableDictionary(contentsOfFile: filePath)
+        
+        }else{
+            let path = Bundle.main.path(forResource: "PregPun", ofType: "plist")
+            let DicResp = NSMutableDictionary(contentsOfFile: path!)
+            DicResp?.write(toFile: filePath, atomically: true)
+        }
+        
         
     }
 
@@ -43,6 +56,12 @@ class ViewControllerPregunta: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func dataFilePath() -> String{
+        let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+        let documentsDirectory = paths[0]
+        return documentsDirectory.appending("/Resp.plist")
+        
+    }
 
     func LoadDictionary(){
         if(numDic != ArrDic.count){
@@ -122,20 +141,17 @@ class ViewControllerPregunta: UIViewController {
         
     }
     func quickSaveCorr(){
-         let path = Bundle.main.path(forResource: "PregPun", ofType: "plist")
-        let DicResp = NSMutableDictionary(contentsOfFile: path!)
-        let arrResp = DicResp?.object(forKey: "Problemas") as! NSMutableArray
+        let arrResp = dicResp?.object(forKey: "Problemas") as! NSMutableArray
         let num = (arrResp.object(at: numArray) as? Int)! + 1
         arrResp.replaceObject(at: numArray, with: num)
-         DicResp?.write(toFile: path!, atomically: true)
+         dicResp?.write(toFile: dataFilePath(), atomically: true)
     }
     func quickSaveInc(){
-         let path = Bundle.main.path(forResource: "PregPun", ofType: "plist")
-        let DicResp = NSMutableDictionary(contentsOfFile: path!)
-        let arrErro = DicResp?.object(forKey: "Incorrectas") as! NSMutableArray
+      
+        let arrErro = dicResp?.object(forKey: "Incorrectas") as! NSMutableArray
         let numIn = (arrErro.object(at: numArray) as? Int)! + 1
         arrErro.replaceObject(at: numArray, with: numIn)
-         DicResp?.write(toFile: path!, atomically: true)
+         dicResp?.write(toFile: dataFilePath(), atomically: true)
     }
     func GoBack(){
         _ = navigationController?.popViewController(animated: true)

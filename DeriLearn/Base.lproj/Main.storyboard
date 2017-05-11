@@ -387,7 +387,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="106" id="X6I-KG-k1b"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -916,7 +916,7 @@
         <image name="trig.png" width="1093" height="273"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3RJ-4v-2Qm"/>
+        <segue reference="x3b-7x-0ht"/>
         <segue reference="fKE-eC-734"/>
     </inferredMetricsTieBreakers>
 </document>
